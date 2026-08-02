@@ -1,0 +1,45 @@
+<view class="page home">
+  <view class="hero">
+    <view class="eyebrow"><text class="dot"></text>东方智慧 · 西方玄学</view>
+    <view class="title">命运罗盘</view>
+    <view class="subtitle">融汇千年东方命理与西方占星塔罗，为你揭示命运的面纱</view>
+  </view>
+
+  <view class="section-title">占卜命理</view>
+  <view class="grid-2">
+    <view wx:for="{{divinations}}" wx:key="title" class="card home-card" bindtap="go" data-url="{{item.url}}">
+      <view class="home-icon">{{item.icon}}</view>
+      <view class="home-title">{{item.title}}</view>
+      <view class="home-en">{{item.en}}</view>
+      <view class="body small">{{item.desc}}</view>
+      <view class="gold small action">开始探索 ›</view>
+    </view>
+  </view>
+
+  <view class="section-title">命理灵饰</view>
+  <view wx:for="{{shop}}" wx:key="title" class="card shop-card" bindtap="goShop" data-mode="{{item.mode}}">
+    <view class="row between">
+      <view>
+        <view class="home-title">{{item.title}} <text class="pill">{{item.tag}}</text></view>
+        <view class="home-en">{{item.en}}</view>
+      </view>
+      <view class="home-icon small-icon">◍</view>
+    </view>
+    <view class="body small">{{item.desc}}</view>
+    <view class="gold small action">去定制 ›</view>
+  </view>
+
+  <view class="section-title">魔法秘术</view>
+  <view wx:for="{{magic}}" wx:key="title" class="card magic-card {{item.type}}" bindtap="goMagic" data-type="{{item.type}}">
+    <view class="row between">
+      <view>
+        <view class="home-title">{{item.title}} <text class="pill">{{item.tag}}</text></view>
+        <view class="home-en">{{item.en}}</view>
+      </view>
+      <view class="home-icon small-icon">✧</view>
+    </view>
+    <view class="body small">{{item.desc}}</view>
+  </view>
+
+  <view class="footer-note">本程序仅供娱乐参考，请理性看待命运解读</view>
+</view>

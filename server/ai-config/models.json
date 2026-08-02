@@ -1,0 +1,34 @@
+{
+  "default": {
+    "label": "默认测试模型",
+    "provider": "toapis",
+    "baseUrl": "https://toapis.com/v1",
+    "model": "gpt-5.5",
+    "temperature": 0.72,
+    "jsonMode": false
+  },
+  "fast": {
+    "label": "快速低成本",
+    "provider": "toapis",
+    "baseUrl": "https://toapis.com/v1",
+    "model": "deepseek-v3.2",
+    "temperature": 0.65,
+    "jsonMode": false
+  },
+  "deep": {
+    "label": "深度解读",
+    "provider": "toapis",
+    "baseUrl": "https://toapis.com/v1",
+    "model": "gpt-5.5",
+    "temperature": 0.78,
+    "jsonMode": false
+  },
+  "gemini": {
+    "label": "Gemini 轻量",
+    "provider": "toapis",
+    "baseUrl": "https://toapis.com/v1",
+    "model": "gemini-2.5-flash",
+    "temperature": 0.78,
+    "jsonMode": false
+  }
+}

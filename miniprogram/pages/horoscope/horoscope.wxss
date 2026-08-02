@@ -1,0 +1,59 @@
+.zodiac-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14rpx;
+  margin: 34rpx 0;
+}
+.zodiac {
+  padding: 20rpx 8rpx;
+  border: 1rpx solid #5a4735;
+  border-radius: 18rpx;
+  color: #d4cbb8;
+  text-align: center;
+  font-size: 24rpx;
+  background: rgba(31, 23, 17, 0.62);
+}
+.zodiac.active {
+  border-color: #c97a1f;
+  color: #e9b870;
+}
+.symbol {
+  color: #e9b870;
+  font-size: 42rpx;
+}
+.symbol.big {
+  font-size: 70rpx;
+}
+.sign-name {
+  font-family: "Songti SC", serif;
+  font-size: 38rpx;
+}
+.fortune {
+  margin-top: 28rpx;
+}
+.bar {
+  height: 12rpx;
+  margin: 14rpx 0;
+  border-radius: 999rpx;
+  background: #3d2f23;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  border-radius: 999rpx;
+  background: #c97a1f;
+}
+.mini {
+  padding: 22rpx;
+  border-radius: 18rpx;
+  background: #0f0b08;
+  text-align: center;
+}
+.remedy-card {
+  margin-top: 28rpx;
+  padding-top: 24rpx;
+  border-top: 1rpx solid #3d2f23;
+}
+.remedy-card .ghost-button {
+  margin-top: 22rpx;
+}

@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="title">星座运势</view>
+  <view class="subtitle">十二星座今日能量与幸运指南</view>
+  <view class="zodiac-grid">
+    <view wx:for="{{signs}}" wx:key="name" class="zodiac {{selected===item.name?'active':''}}" bindtap="choose" data-name="{{item.name}}">
+      <view class="symbol">{{item.icon}}</view>
+      <view>{{item.name}}</view>
+      <view class="muted small">{{item.date}}</view>
+    </view>
+  </view>
+  <view wx:if="{{result}}" class="card active">
+    <view class="row between">
+      <view>
+        <view class="gold sign-name">{{result.name}}</view>
+        <view class="muted small">{{result.en}} · {{result.element}}象星座</view>
+      </view>
+      <view class="symbol big">{{result.icon}}</view>
+    </view>
+    <view wx:for="{{result.fortunes}}" wx:key="label" class="fortune">
+      <view class="row between"><text>{{item.label}}</text><text class="gold">{{item.value}}%</text></view>
+      <view class="bar"><view class="fill" style="width: {{item.value}}%;"></view></view>
+      <view class="body small">{{item.desc}}</view>
+    </view>
+    <view class="section-title">今日幸运指南</view>
+    <view class="grid-2">
+      <view wx:for="{{result.lucky}}" wx:key="label" class="mini">
+        <view class="muted small">{{item.label}}</view>
+        <view class="gold">{{item.value}}</view>
+      </view>
+    </view>
+    <view wx:if="{{result.remedy}}" class="remedy-card">
+      <view class="section-title">转化珠串建议</view>
+      <view class="gold">{{result.remedy.title}}</view>
+      <view class="body small">{{result.remedy.summary}}</view>
+      <text wx:for="{{result.remedy.beads}}" wx:key="id" class="pill">{{item.name}}</text>
+      <button class="ghost-button" bindtap="goShop">进入灵饰定制</button>
+    </view>
+  </view>
+</view>

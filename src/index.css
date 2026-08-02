@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .animate-fadeIn {
+    animation: fadeIn 0.6s ease-out;
+  }
+  .animate-cupToss {
+    animation: cupToss 1.5s cubic-bezier(0.2, 0.7, 0.2, 1) infinite;
+  }
+  .animate-cupSettle {
+    animation: cupSettle 0.6s ease-out both;
+  }
+  .animate-cupShadow {
+    animation: cupShadow 1.5s ease-in-out infinite;
+  }
+}
+
+.moon-block {
+  position: relative;
+  display: flex;
+  width: 104px;
+  height: 142px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(233, 184, 112, 0.32);
+  border-radius: 58% 42% 54% 46% / 42% 52% 48% 58%;
+  color: rgba(249, 236, 216, 0.78);
+  font-family: "Noto Serif SC", serif;
+  font-size: 18px;
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.32);
+  transform-style: preserve-3d;
+}
+
+.moon-block-yin {
+  background: linear-gradient(145deg, #8f5d32, #4f321e 52%, #21150f);
+}
+
+.moon-block-yang {
+  background:
+    radial-gradient(circle at 48% 42%, rgba(249, 236, 216, 0.38), transparent 32%),
+    linear-gradient(145deg, #a86b32, #5c3b22 54%, #20150f);
+}
+
+.moon-block-ridge {
+  position: absolute;
+  inset: 18px 24px;
+  border: 1px solid rgba(249, 236, 216, 0.14);
+  border-radius: inherit;
+}
+
+.moon-block-shine {
+  position: absolute;
+  left: 18px;
+  top: 16px;
+  width: 28px;
+  height: 64px;
+  border-radius: 999px;
+  background: rgba(249, 236, 216, 0.16);
+  filter: blur(8px);
+  transform: rotate(20deg);
+}
+
+.cup-shadow {
+  position: absolute;
+  bottom: 48px;
+  width: 220px;
+  height: 34px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.3);
+  filter: blur(10px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cupToss {
+  0% {
+    transform: translateY(34px) rotateX(0deg) rotateZ(-12deg);
+  }
+  38% {
+    transform: translateY(-72px) rotateX(200deg) rotateZ(62deg);
+  }
+  70% {
+    transform: translateY(-12px) rotateX(360deg) rotateZ(-34deg);
+  }
+  100% {
+    transform: translateY(34px) rotateX(540deg) rotateZ(12deg);
+  }
+}
+
+@keyframes cupSettle {
+  0% {
+    opacity: 0;
+    transform: translateY(-24px) rotateZ(18deg) scale(0.94);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(6px) rotateZ(-4deg) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateZ(0deg) scale(1);
+  }
+}
+
+@keyframes cupShadow {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scaleX(1);
+  }
+  45% {
+    opacity: 0.18;
+    transform: scaleX(0.58);
+  }
+}
+
+@media (max-width: 640px) {
+  .moon-block {
+    width: 82px;
+    height: 116px;
+  }
+}
+
+body {
+  background-color: #0f0b08;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+@media (max-width: 640px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

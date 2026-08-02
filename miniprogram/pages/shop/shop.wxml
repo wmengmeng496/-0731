@@ -1,0 +1,133 @@
+  <view class="page">
+  <view class="title">命理灵饰</view>
+  <view class="subtitle">先看款式和参考价；暂不接线上支付，扫码添加企微后人工确认手围、开光、发货和付款。</view>
+
+  <view class="card wecom-card">
+    <view>
+      <view class="section-title">添加企微咨询 / 下单</view>
+      <view class="body small">截图商品或发送测算结果，人工确认款式与价格。</view>
+    </view>
+    <image class="wecom-qr-thumb" src="{{wecomQr}}" mode="aspectFit" bindtap="showWecomQr" />
+  </view>
+
+  <view class="tabs">
+    <view class="tab {{tab==='goods'?'active':''}}" bindtap="switchTab" data-tab="goods">按所求选款</view>
+    <view class="tab {{tab==='custom'?'active':''}}" bindtap="switchTab" data-tab="custom">自由组合定制</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">先选寺庙</view>
+    <view wx:for="{{temples}}" wx:key="id" class="temple {{selectedTemple===index?'active':''}}" bindtap="chooseTemple" data-index="{{index}}">
+      <view class="row between">
+        <view>
+          <view class="gold">{{item.name}}</view>
+          <view class="body small">{{item.note}}</view>
+        </view>
+        <view class="muted small">+¥{{item.consecrationPrice}}</view>
+      </view>
+    </view>
+    <view class="section-title">再选所求</view>
+    <view class="prayer-wrap">
+      <view wx:for="{{prayerTypes}}" wx:key="*this" class="prayer {{selectedPrayer===item?'active':''}}" bindtap="choosePrayer" data-prayer="{{item}}">{{item}}</view>
+    </view>
+    <view class="row between switch-row">
+      <view>
+        <view class="gold">是否开光</view>
+        <view class="body small">关闭则按未开光净化包装发货</view>
+      </view>
+      <switch checked="{{consecrated}}" bindchange="toggleConsecrated" color="#c97a1f" />
+    </view>
+  </view>
+
+  <view wx:if="{{tab==='goods'}}">
+    <view wx:if="{{!filteredProducts.length}}" class="card">
+      <view class="body">当前寺庙和所求暂无对应商品，可切换所求类型或进入自由组合定制。</view>
+    </view>
+    <view wx:for="{{filteredProducts}}" wx:key="id" class="card product">
+      <view class="product-image" style="background: radial-gradient(circle at 50% 38%, {{item.palette[0]}}55, transparent 36%), linear-gradient(145deg, #22150f, #0f0b08);">
+        <view class="bracelet-preview hero-preview">
+          <view wx:for="{{item.palette}}" wx:key="*this" class="bead hero-bead" style="background: {{item}};"></view>
+          <view wx:for="{{item.palette}}" wx:key="*this" class="bead hero-bead" style="background: {{item}};"></view>
+          <view wx:for="{{item.palette}}" wx:key="*this" class="bead hero-bead" style="background: {{item}};"></view>
+        </view>
+        <view class="image-label">{{item.source}} · 现货咨询</view>
+      </view>
+      <view class="row between">
+        <view>
+          <view class="gold product-name">{{item.name}}</view>
+          <view class="body small">{{item.subtitle}}</view>
+          <view class="body small">形态：{{item.form}}</view>
+        </view>
+        <view class="price">¥{{item.basePrice}}</view>
+      </view>
+      <view wx:if="{{item.supplyPrice}}" class="supply">供应参考 ¥{{item.supplyPrice}} 起 · 可做基础款/升级款</view>
+      <view class="bracelet-preview small-preview">
+        <view wx:for="{{item.palette}}" wx:key="*this" class="bead" style="background: {{item}};"></view>
+      </view>
+      <view class="section-title">材质结构</view>
+      <text wx:for="{{item.materials}}" wx:key="*this" class="pill">{{item}}</text>
+      <view class="section-title">产品卖点</view>
+      <view wx:for="{{item.sellingPoints}}" wx:key="*this" class="body small">· {{item}}</view>
+      <view class="section-title">可选款式</view>
+      <view wx:for="{{item.skuOptions}}" wx:key="name" class="row between sku-line">
+        <text>{{item.name}}</text>
+        <text class="gold">¥{{item.price}}</text>
+      </view>
+      <text wx:for="{{item.tags}}" wx:key="*this" class="pill">{{item}}</text>
+      <button class="ghost-button" bindtap="orderProduct" data-id="{{item.id}}" data-temple="{{item.templeId}}">生成企微咨询单</button>
+      <button class="button" bindtap="showWecomQr">查看企微二维码</button>
+    </view>
+  </view>
+
+  <view wx:if="{{tab==='custom'}}">
+    <view class="card">
+      <view class="field">
+        <text class="label">手围</text>
+        <picker range="{{wristOptions}}" value="{{wristIndex}}" bindchange="setWrist"><view class="picker">{{wristOptions[wristIndex]}}</view></picker>
+      </view>
+      <view class="section-title">选择珠子 / 配件与颗数</view>
+      <view wx:for="{{beads}}" wx:key="id" class="bead-row">
+        <text class="bead-dot" style="background: {{item.color}};"></text>
+        <view class="bead-info">
+          <view class="gold">{{item.direction}} · {{item.name}} · {{item.size}}</view>
+          <view class="body small">{{item.element}}气 · {{item.effect}} · ¥{{item.unitPrice}}/颗</view>
+        </view>
+        <view class="counter">
+          <button bindtap="changeCount" data-id="{{item.id}}" data-delta="-1">-</button>
+          <text>{{item.count}}</text>
+          <button bindtap="changeCount" data-id="{{item.id}}" data-delta="1">+</button>
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{quote}}" class="card active">
+      <view class="section-title">报价明细</view>
+      <view wx:for="{{quote.beadLines}}" wx:key="id" class="row between quote-line">
+        <text>{{item.name}} x {{item.count}}</text>
+        <text class="gold">¥{{item.subtotal}}</text>
+      </view>
+      <view class="row between quote-line"><text>穿串服务</text><text class="gold">¥{{quote.fees.serviceFee}}</text></view>
+      <view class="row between quote-line"><text>手围工费</text><text class="gold">¥{{quote.fees.stringFee}}</text></view>
+      <view class="row between quote-line"><text>开光 / 加持服务</text><text class="gold">¥{{quote.fees.consecrationFee}}</text></view>
+      <view class="row between total"><text>合计</text><text>¥{{quote.total}}</text></view>
+      <button class="button" bindtap="orderCustom">生成发货订单</button>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">收货信息</view>
+    <input class="input field" value="{{shipping.receiver}}" bindinput="setShipping" data-key="receiver" placeholder="收件人" />
+    <input class="input field" value="{{shipping.phone}}" bindinput="setShipping" data-key="phone" placeholder="手机号" />
+    <input class="input field" value="{{shipping.address}}" bindinput="setShipping" data-key="address" placeholder="收货地址" />
+  </view>
+
+  <view wx:if="{{order}}" class="card active">
+    <view class="gold">咨询单已生成</view>
+    <view class="body">编号：{{order.orderNo}}</view>
+    <view class="body">状态：{{order.status}}</view>
+    <view class="price">应付 ¥{{order.payable}}</view>
+    <view class="body small">下一步：扫码添加企微，发送咨询单编号、商品截图和收货信息，人工确认后再交易。</view>
+    <image class="wecom-qr-large" src="{{wecomQr}}" mode="aspectFit" bindtap="showWecomQr" />
+    <button class="button" bindtap="showWecomQr">查看企微二维码</button>
+  </view>
+</view>

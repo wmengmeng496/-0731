@@ -1,0 +1,17 @@
+.user-name {
+  font-family: "Songti SC", serif;
+  font-size: 36rpx;
+}
+.avatar {
+  width: 96rpx;
+  height: 96rpx;
+  border: 1rpx solid rgba(233, 184, 112, 0.42);
+  border-radius: 50%;
+  color: #e9b870;
+  font-size: 46rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+.login {
+  margin-top: 30rpx;
+}

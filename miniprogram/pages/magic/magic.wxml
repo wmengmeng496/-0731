@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="title">{{type === 'white' ? '白魔法' : '黑魔法'}}</view>
+  <view class="subtitle">{{type === 'white' ? '净化守护、吸引显化、疗愈能量、月相仪式' : '边界、断舍离、影子修行与能量净化'}}</view>
+  <view class="magic-tabs">
+    <view wx:for="{{tabs}}" wx:key="key" class="magic-tab {{active===item.key?'active':''}}" bindtap="switchTab" data-key="{{item.key}}">{{item.title}}</view>
+  </view>
+  <view wx:for="{{rituals}}" wx:key="name" class="card">
+    <view class="row between">
+      <view class="ritual-name">{{item.name}}</view>
+      <text class="pill">{{item.level}}</text>
+    </view>
+    <view class="muted small">{{item.duration}} · {{item.timing}}</view>
+    <view class="section-title">准备材料</view>
+    <text wx:for="{{item.materials}}" wx:key="*this" class="pill">{{item}}</text>
+    <view class="section-title">仪式步骤</view>
+    <view wx:for="{{item.steps}}" wx:key="*this" wx:for-item="step" class="step">
+      <text class="step-no">{{index + 1}}</text>
+      <text class="body">{{step}}</text>
+    </view>
+    <view class="body tip">{{item.tips}}</view>
+  </view>
+</view>

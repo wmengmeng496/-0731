@@ -1,0 +1,695 @@
+[
+  {
+    "id": "yonghe-incense-peace",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "雍和宫香灰平安串",
+    "source": "雍和宫",
+    "form": "香灰琉璃主珠 + 朱砂隔珠",
+    "price": 238,
+    "originalPrice": null,
+    "intention": [
+      "平安",
+      "护身",
+      "稳定",
+      "事业"
+    ],
+    "materials": [
+      "香灰琉璃珠",
+      "朱砂",
+      "黑曜石",
+      "平安扣"
+    ],
+    "summary": "适合命盘需要稳住气场、日常通勤护身、近期事务较多的人。",
+    "care": "可选开光；日常避免沾水，睡前放在干燥处。",
+    "palette": [
+      "#b8aa8f",
+      "#8f1d1d",
+      "#171717",
+      "#d8a84c"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "lingyin-money-lotus",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "灵隐寺有钱花莲花手串",
+    "source": "灵隐寺",
+    "form": "有钱花莲花主珠 + 绿檀/水草玛瑙",
+    "price": 99,
+    "originalPrice": null,
+    "intention": [
+      "求财",
+      "财运",
+      "转运",
+      "事业"
+    ],
+    "materials": [
+      "有钱花莲花主珠",
+      "天然绿檀",
+      "水草玛瑙",
+      "檀木"
+    ],
+    "summary": "名字和视觉记忆点都强，适合财运、转运、事业启动期。",
+    "care": "建议搭配净化包装；木质珠避免暴晒和长时间泡水。",
+    "palette": [
+      "#8a9a57",
+      "#f0d58c",
+      "#d7ebd0",
+      "#6d7b3f"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "lingyin-eighteen-seed",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "灵隐寺十八籽多宝菩提",
+    "source": "灵隐寺",
+    "form": "十八籽 / 多宝菩提手串",
+    "price": 69,
+    "originalPrice": null,
+    "intention": [
+      "清心",
+      "健康",
+      "平安",
+      "修持"
+    ],
+    "materials": [
+      "天意金刚菩提",
+      "星月菩提",
+      "莲花菩提",
+      "檀木"
+    ],
+    "summary": "更偏静心、健康、修持，适合焦虑、睡眠浅或想稳定内在节奏的人。",
+    "care": "菩提类适合干手盘玩，初期少碰水，避免油污。",
+    "palette": [
+      "#c58b3d",
+      "#eee5d3",
+      "#9d2f2f",
+      "#4b2d18"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "hongluo-guanyin-love",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "红螺寺观音姻缘手串",
+    "source": "红螺寺",
+    "form": "观音牌 + 粉晶 + 南红玛瑙",
+    "price": 328,
+    "originalPrice": null,
+    "intention": [
+      "姻缘",
+      "感情",
+      "桃花",
+      "和合"
+    ],
+    "materials": [
+      "观音牌",
+      "粉晶",
+      "南红玛瑙",
+      "和合隔珠"
+    ],
+    "summary": "红螺寺姻缘认知强，适合感情修复、桃花启动和稳定关系。",
+    "care": "粉晶避免暴晒；可搭配月光净化或白水晶簇静置。",
+    "palette": [
+      "#e6a9b5",
+      "#9d2f2f",
+      "#f1d7c9",
+      "#d8b48a"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "wutai-wenshu-wisdom",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "五台山文殊智慧串",
+    "source": "五台山",
+    "form": "文殊牌 + 青金石 + 白水晶",
+    "price": 298,
+    "originalPrice": null,
+    "intention": [
+      "学业",
+      "考试",
+      "智慧",
+      "事业"
+    ],
+    "materials": [
+      "文殊牌",
+      "青金石",
+      "白水晶",
+      "檀木隔珠"
+    ],
+    "summary": "适合考试、学习、面试、职场判断力和需要集中注意力的人。",
+    "care": "青金石避免酸碱和大量汗液；佩戴后用软布擦拭。",
+    "palette": [
+      "#1d3f78",
+      "#f6eee0",
+      "#4b2d18",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "yonghe-cinnabar-career",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "雍和宫朱砂事业护身串",
+    "source": "雍和宫",
+    "form": "朱砂主珠 + 黑曜石 + 香灰隔珠",
+    "price": 198,
+    "originalPrice": 268,
+    "intention": [
+      "事业",
+      "护身",
+      "转运",
+      "稳定"
+    ],
+    "materials": [
+      "朱砂",
+      "黑曜石",
+      "香灰琉璃珠",
+      "古银隔片"
+    ],
+    "summary": "适合换工作、面试、职场压力期和需要稳住气场的人，红黑配色辨识度强。",
+    "care": "朱砂类避免泡水和磕碰；睡前取下，单独收纳。",
+    "palette": [
+      "#9d2f2f",
+      "#171717",
+      "#b8aa8f",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [
+      "红黑视觉强",
+      "适合事业护身主题",
+      "可做男女同款"
+    ],
+    "skuOptions": [
+      {
+        "name": "基础护身款",
+        "price": 198
+      },
+      {
+        "name": "事业加强款",
+        "price": 238
+      },
+      {
+        "name": "礼盒开光款",
+        "price": 328
+      }
+    ],
+    "consultPrompt": "我想咨询雍和宫朱砂事业护身串，想看手围和是否开光。"
+  },
+  {
+    "id": "yonghe-porcelain-palace",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "雍和宫珠光瓷珠宫廷手串",
+    "source": "雍和宫",
+    "form": "粉/灰/黑瓷珠 + 古银莲花配件",
+    "price": 129,
+    "originalPrice": null,
+    "intention": [
+      "颜值",
+      "转运",
+      "平安",
+      "事业"
+    ],
+    "materials": [
+      "粉瓷珠",
+      "灰瓷珠",
+      "黑瓷珠",
+      "古银莲花配件"
+    ],
+    "summary": "出图效果强，适合小红书风格展示和日常通勤佩戴，也适合做低门槛定制款。",
+    "care": "瓷珠避免摔碰；古银配件可用软布擦拭保持光泽。",
+    "palette": [
+      "#d8a9b7",
+      "#8d9095",
+      "#1f1f22",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [
+      "高颜值出片",
+      "三色可选",
+      "适合来图微调"
+    ],
+    "skuOptions": [
+      {
+        "name": "粉瓷古银款",
+        "price": 129
+      },
+      {
+        "name": "灰瓷古银款",
+        "price": 129
+      },
+      {
+        "name": "黑瓷大珠款",
+        "price": 169
+      }
+    ],
+    "consultPrompt": "我想看雍和宫瓷珠宫廷手串的粉色/灰色/黑色实拍。"
+  },
+  {
+    "id": "lingyin-green-sandalwood-calm",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "黑曜石绿檀木情绪稳定双圈手串",
+    "source": "官方正品",
+    "form": "黑曜石 + 绿檀木 + 金色隔珠双圈",
+    "price": 119,
+    "originalPrice": null,
+    "intention": [
+      "情绪稳定",
+      "清心",
+      "护身",
+      "睡眠"
+    ],
+    "materials": [
+      "黑曜石",
+      "天然绿檀木",
+      "金色隔珠",
+      "弹力绳"
+    ],
+    "summary": "适合焦虑、睡眠浅、思绪过多或容易被外界情绪影响的人，黑曜石稳住边界，绿檀木让状态慢慢安静下来。",
+    "care": "木质珠避免长时间泡水和暴晒；黑曜石佩戴后可用软布擦拭，睡前单独放在干燥处。",
+    "palette": [
+      "#101010",
+      "#6d7b3f",
+      "#8a9a57",
+      "#d8a84c"
+    ],
+    "sellingPoints": [
+      "情绪稳定主题明确",
+      "黑绿配色沉稳耐看",
+      "双圈佩戴层次感强"
+    ],
+    "skuOptions": [
+      {
+        "name": "基础双圈款",
+        "price": 119
+      },
+      {
+        "name": "净化包装款",
+        "price": 149
+      },
+      {
+        "name": "情绪稳定礼盒款",
+        "price": 199
+      }
+    ],
+    "consultPrompt": "我想咨询黑曜石绿檀木情绪稳定双圈手串，想看实拍、手围和是否可做净化礼盒。"
+  },
+  {
+    "id": "putuo-lotus-peace",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "普陀山莲花平安手串",
+    "source": "普陀山",
+    "form": "莲花菩提 + 白玉髓 + 平安扣",
+    "price": 168,
+    "originalPrice": null,
+    "intention": [
+      "平安",
+      "清心",
+      "家庭",
+      "健康"
+    ],
+    "materials": [
+      "莲花菩提",
+      "白玉髓",
+      "平安扣",
+      "檀木隔珠"
+    ],
+    "summary": "莲花和平安扣主题柔和，适合家人、长辈、出行平安和日常守护。",
+    "care": "白玉髓避免硬物摩擦；菩提部分少碰水，保持干燥。",
+    "palette": [
+      "#f4ead6",
+      "#eee5d3",
+      "#d7a264",
+      "#4b2d18"
+    ],
+    "sellingPoints": [
+      "送礼场景好",
+      "平安主题明确",
+      "视觉温润不挑人"
+    ],
+    "skuOptions": [
+      {
+        "name": "基础平安款",
+        "price": 168
+      },
+      {
+        "name": "莲花平安扣款",
+        "price": 198
+      },
+      {
+        "name": "家庭守护礼盒",
+        "price": 268
+      }
+    ],
+    "consultPrompt": ""
+  },
+  {
+    "id": "hongluo-rose-quartz-peach",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "红螺寺粉晶桃花手串",
+    "source": "红螺寺",
+    "form": "粉晶 + 南红玛瑙 + 和合隔珠",
+    "price": 188,
+    "originalPrice": null,
+    "intention": [
+      "桃花",
+      "姻缘",
+      "感情",
+      "和合"
+    ],
+    "materials": [
+      "粉晶",
+      "南红玛瑙",
+      "和合隔珠",
+      "白水晶"
+    ],
+    "summary": "比观音姻缘款更轻量，适合单身桃花、关系破冰和温柔表达主题。",
+    "care": "粉晶避免暴晒；可用月光或白水晶簇温和净化。",
+    "palette": [
+      "#e6a9b5",
+      "#f1d7c9",
+      "#9d2f2f",
+      "#f6eee0"
+    ],
+    "sellingPoints": [
+      "桃花主题直观",
+      "价格低于观音款",
+      "适合女生礼物"
+    ],
+    "skuOptions": [
+      {
+        "name": "桃花基础款",
+        "price": 188
+      },
+      {
+        "name": "南红加强款",
+        "price": 238
+      },
+      {
+        "name": "姻缘礼盒款",
+        "price": 298
+      }
+    ],
+    "consultPrompt": ""
+  },
+  {
+    "id": "wutai-lapis-focus",
+    "tradition": "eastern",
+    "category": "temple",
+    "name": "五台山青金石专注手串",
+    "source": "五台山",
+    "form": "青金石 + 白水晶 + 檀木隔珠",
+    "price": 199,
+    "originalPrice": null,
+    "intention": [
+      "学业",
+      "考试",
+      "事业",
+      "专注"
+    ],
+    "materials": [
+      "青金石",
+      "白水晶",
+      "檀木隔珠",
+      "古银配件"
+    ],
+    "summary": "文殊智慧串的轻量版，适合考试季、面试前、学习和需要集中判断力的职场场景。",
+    "care": "青金石避免汗液和酸碱环境；佩戴后用软布擦拭。",
+    "palette": [
+      "#1d3f78",
+      "#f6eee0",
+      "#4b2d18",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [
+      "考试季好卖",
+      "蓝白配色高级",
+      "适合学生和职场"
+    ],
+    "skuOptions": [
+      {
+        "name": "专注基础款",
+        "price": 199
+      },
+      {
+        "name": "考试加持款",
+        "price": 259
+      },
+      {
+        "name": "文殊牌升级款",
+        "price": 328
+      }
+    ],
+    "consultPrompt": ""
+  },
+  {
+    "id": "rose-quartz-love",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "粉晶关系修复手链",
+    "source": "西方水晶",
+    "form": "粉晶 + 白水晶隔珠",
+    "price": 129,
+    "originalPrice": null,
+    "intention": [
+      "感情",
+      "桃花",
+      "疗愈",
+      "温柔表达"
+    ],
+    "materials": [
+      "粉晶",
+      "白水晶",
+      "银色隔珠"
+    ],
+    "summary": "适合塔罗感情牌、星座配对、MBTI关系分析后的柔和能量补充。",
+    "care": "粉晶不建议暴晒，可用月光、白水晶簇或鼠尾草进行温和净化。",
+    "palette": [
+      "#e6a9b5",
+      "#f6eee0",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "amethyst-clarity",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "紫水晶清醒直觉手链",
+    "source": "西方水晶",
+    "form": "紫水晶 + 白水晶",
+    "price": 159,
+    "originalPrice": null,
+    "intention": [
+      "直觉",
+      "睡眠",
+      "清醒",
+      "塔罗"
+    ],
+    "materials": [
+      "紫水晶",
+      "白水晶",
+      "月亮吊坠"
+    ],
+    "summary": "适合塔罗、月相、圣杯问事后的直觉梳理，也适合睡前安定情绪。",
+    "care": "避免长时间暴晒褪色；建议每周用月光或白水晶簇净化。",
+    "palette": [
+      "#8b6bb1",
+      "#d8d5ef",
+      "#f6eee0"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "black-obsidian-protection",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "黑曜石边界守护手串",
+    "source": "西方水晶",
+    "form": "黑曜石 + 茶晶",
+    "price": 119,
+    "originalPrice": null,
+    "intention": [
+      "护身",
+      "边界",
+      "断舍离",
+      "稳定"
+    ],
+    "materials": [
+      "黑曜石",
+      "茶晶",
+      "黑玛瑙"
+    ],
+    "summary": "适合黑魔法、断舍离、压力期和需要建立个人边界的人。",
+    "care": "可用烟熏、流水短时冲洗或白水晶簇净化；佩戴后及时擦干。",
+    "palette": [
+      "#171717",
+      "#5b4638",
+      "#8d9095"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "citrine-money",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "黄水晶行动力招财手链",
+    "source": "西方水晶",
+    "form": "黄水晶 + 虎眼石",
+    "price": 169,
+    "originalPrice": null,
+    "intention": [
+      "求财",
+      "行动力",
+      "事业",
+      "显化"
+    ],
+    "materials": [
+      "黄水晶",
+      "虎眼石",
+      "白水晶"
+    ],
+    "summary": "适合事业、财运、显化主题，偏行动和自信，不只是被动招财。",
+    "care": "黄水晶可短时日光净化，避免长期强光；每月做一次白水晶簇净化。",
+    "palette": [
+      "#d8a84c",
+      "#9b6a2f",
+      "#f6eee0"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "tiger-eye-decision",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "虎眼石决断力手串",
+    "source": "西方水晶",
+    "form": "虎眼石 + 黑曜石 + 黄水晶",
+    "price": 139,
+    "originalPrice": null,
+    "intention": [
+      "事业",
+      "行动力",
+      "决断",
+      "求财"
+    ],
+    "materials": [
+      "虎眼石",
+      "黑曜石",
+      "黄水晶",
+      "金色隔珠"
+    ],
+    "summary": "适合犹豫期、创业副业、销售谈判和需要快速做决定的人。",
+    "care": "避免长期泡水；佩戴后用软布擦干，可用白水晶簇净化。",
+    "palette": [
+      "#9b6a2f",
+      "#d8a84c",
+      "#171717",
+      "#f6eee0"
+    ],
+    "sellingPoints": [
+      "事业行动主题清晰",
+      "男生接受度高",
+      "适合求财套餐搭配"
+    ],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "garnet-vitality",
+    "tradition": "western",
+    "category": "crystal",
+    "name": "石榴石气色能量手链",
+    "source": "西方水晶",
+    "form": "石榴石 + 白水晶 + 银色隔珠",
+    "price": 149,
+    "originalPrice": null,
+    "intention": [
+      "颜值",
+      "气色",
+      "桃花",
+      "行动力"
+    ],
+    "materials": [
+      "石榴石",
+      "白水晶",
+      "银色隔珠"
+    ],
+    "summary": "适合想提升气色、状态感和自信表达的人，也可作为桃花与颜值主题补充款。",
+    "care": "避免碰撞和化学品；出汗后用软布擦拭。",
+    "palette": [
+      "#7c1f2b",
+      "#b43a4c",
+      "#f6eee0",
+      "#c8c0b4"
+    ],
+    "sellingPoints": [
+      "颜值气色主题",
+      "适合女生自购",
+      "可和粉晶做套组"
+    ],
+    "skuOptions": [],
+    "consultPrompt": ""
+  },
+  {
+    "id": "cleansing-kit",
+    "tradition": "western",
+    "category": "cleansing",
+    "name": "水晶消磁净化套装",
+    "source": "能量护理",
+    "form": "白水晶碎石 + 鼠尾草 + 月光说明卡",
+    "price": 89,
+    "originalPrice": null,
+    "intention": [
+      "消磁",
+      "净化",
+      "护理",
+      "入门"
+    ],
+    "materials": [
+      "白水晶碎石",
+      "鼠尾草",
+      "净化说明卡"
+    ],
+    "summary": "适合作为所有水晶类商品加购，解决佩戴后如何消磁、如何保养的问题。",
+    "care": "每周净化一次即可；烟熏时保持通风，避免靠近易燃物。",
+    "palette": [
+      "#f6eee0",
+      "#b8aa8f",
+      "#8a9a57"
+    ],
+    "sellingPoints": [],
+    "skuOptions": [],
+    "consultPrompt": ""
+  }
+]

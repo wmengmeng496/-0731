@@ -1,0 +1,46 @@
+.magic-tabs {
+  display: flex;
+  gap: 14rpx;
+  margin: 34rpx 0;
+  overflow-x: auto;
+}
+.magic-tab {
+  flex: 0 0 auto;
+  padding: 18rpx 24rpx;
+  border: 1rpx solid #5a4735;
+  border-radius: 999rpx;
+  color: #8f7554;
+  font-size: 24rpx;
+}
+.magic-tab.active {
+  border-color: #c97a1f;
+  color: #e9b870;
+  background: rgba(201, 122, 31, 0.1);
+}
+.ritual-name {
+  max-width: 470rpx;
+  color: #f9ecd8;
+  font-family: "Songti SC", serif;
+  font-size: 34rpx;
+}
+.step {
+  display: flex;
+  gap: 18rpx;
+  margin: 18rpx 0;
+}
+.step-no {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  background: #3d2f23;
+  color: #e9b870;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  text-align: center;
+  flex: 0 0 36rpx;
+}
+.tip {
+  margin-top: 22rpx;
+  padding-top: 22rpx;
+  border-top: 1rpx solid #3d2f23;
+}

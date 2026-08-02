@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#f7ead5"/>
+      <stop offset="58%" stop-color="#ead8bc"/>
+      <stop offset="100%" stop-color="#d6c2a4"/>
+    </radialGradient>
+    <radialGradient id="blackBead" cx="34%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="12%" stop-color="#35302b"/>
+      <stop offset="54%" stop-color="#080706"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="greenBead" cx="34%" cy="28%" r="76%">
+      <stop offset="0%" stop-color="#f8f0cf"/>
+      <stop offset="18%" stop-color="#8d9a43"/>
+      <stop offset="62%" stop-color="#56651f"/>
+      <stop offset="100%" stop-color="#303913"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b88218"/>
+      <stop offset="52%" stop-color="#f1c35b"/>
+      <stop offset="100%" stop-color="#8b5e11"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#4a321d" flood-opacity="0.28"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <pattern id="woodGrain" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M4 16 C16 7, 31 8, 50 16" fill="none" stroke="#b8bd6a" stroke-width="2" opacity="0.55"/>
+      <path d="M2 31 C17 23, 33 24, 52 33" fill="none" stroke="#354314" stroke-width="1.6" opacity="0.35"/>
+      <path d="M8 44 C19 38, 31 37, 45 43" fill="none" stroke="#d4d88f" stroke-width="1.4" opacity="0.36"/>
+    </pattern>
+  </defs>
+
+  <rect width="1024" height="1024" rx="16" fill="url(#paper)"/>
+  <g opacity="0.28" filter="url(#softBlur)">
+    <rect x="45" y="32" width="150" height="18" rx="9" fill="#dac7aa"/>
+    <rect x="722" y="86" width="190" height="16" rx="8" fill="#dbc6a6"/>
+    <rect x="84" y="186" width="92" height="18" rx="9" fill="#e1c7ad"/>
+  </g>
+  <g opacity="0.38" fill="none" stroke="#c5352f" stroke-width="5">
+    <rect x="884" y="455" width="78" height="42" rx="4" transform="rotate(-17 923 476)"/>
+    <rect x="822" y="622" width="65" height="38" rx="4" transform="rotate(10 854 641)"/>
+  </g>
+
+  <g font-family="Times New Roman, Songti SC, SimSun, serif" text-anchor="middle" fill="#150e0a">
+    <text x="256" y="90" font-size="30">QING</text>
+    <text x="438" y="90" font-size="30">XU</text>
+    <text x="622" y="90" font-size="30">WEN</text>
+    <text x="806" y="90" font-size="30">DING</text>
+    <text x="255" y="206" font-size="132" font-weight="500">情</text>
+    <text x="438" y="206" font-size="132" font-weight="500">绪</text>
+    <text x="622" y="206" font-size="132" font-weight="500">稳</text>
+    <text x="806" y="206" font-size="132" font-weight="500">定</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="515" cy="606" rx="286" ry="118" fill="none" stroke="#846130" stroke-width="22" opacity="0.08"/>
+    <ellipse cx="512" cy="596" rx="244" ry="102" fill="none" stroke="#846130" stroke-width="16" opacity="0.06"/>
+
+    <g>
+      <circle cx="251" cy="578" r="35" fill="url(#blackBead)"/>
+      <circle cx="296" cy="523" r="33" fill="url(#greenBead)"/>
+      <circle cx="365" cy="482" r="34" fill="url(#blackBead)"/>
+      <circle cx="444" cy="466" r="33" fill="url(#greenBead)"/>
+      <circle cx="526" cy="468" r="34" fill="url(#blackBead)"/>
+      <circle cx="606" cy="488" r="33" fill="url(#greenBead)"/>
+      <circle cx="673" cy="532" r="34" fill="url(#blackBead)"/>
+      <circle cx="713" cy="589" r="33" fill="url(#greenBead)"/>
+      <circle cx="701" cy="650" r="34" fill="url(#blackBead)"/>
+      <circle cx="643" cy="698" r="33" fill="url(#greenBead)"/>
+      <circle cx="559" cy="718" r="34" fill="url(#blackBead)"/>
+      <circle cx="477" cy="714" r="33" fill="url(#greenBead)"/>
+      <circle cx="398" cy="690" r="34" fill="url(#blackBead)"/>
+      <circle cx="320" cy="646" r="33" fill="url(#greenBead)"/>
+    </g>
+    <g transform="translate(0 54)">
+      <circle cx="293" cy="559" r="28" fill="url(#blackBead)"/>
+      <circle cx="346" cy="520" r="27" fill="url(#greenBead)"/>
+      <circle cx="417" cy="499" r="28" fill="url(#blackBead)"/>
+      <circle cx="494" cy="500" r="27" fill="url(#greenBead)"/>
+      <circle cx="569" cy="518" r="28" fill="url(#blackBead)"/>
+      <circle cx="631" cy="556" r="27" fill="url(#greenBead)"/>
+      <circle cx="665" cy="606" r="28" fill="url(#blackBead)"/>
+      <circle cx="650" cy="656" r="27" fill="url(#greenBead)"/>
+      <circle cx="591" cy="690" r="28" fill="url(#blackBead)"/>
+      <circle cx="512" cy="700" r="27" fill="url(#greenBead)"/>
+      <circle cx="438" cy="687" r="28" fill="url(#blackBead)"/>
+      <circle cx="365" cy="650" r="27" fill="url(#greenBead)"/>
+    </g>
+
+    <g opacity="0.75">
+      <circle cx="448" cy="466" r="34" fill="url(#woodGrain)" opacity="0.52"/>
+      <circle cx="606" cy="488" r="33" fill="url(#woodGrain)" opacity="0.52"/>
+      <circle cx="713" cy="589" r="33" fill="url(#woodGrain)" opacity="0.52"/>
+      <circle cx="643" cy="698" r="33" fill="url(#woodGrain)" opacity="0.52"/>
+      <circle cx="477" cy="714" r="33" fill="url(#woodGrain)" opacity="0.52"/>
+      <circle cx="320" cy="646" r="33" fill="url(#woodGrain)" opacity="0.52"/>
+    </g>
+    <g>
+      <rect x="475" y="733" width="13" height="45" rx="7" fill="url(#gold)" transform="rotate(10 481 755)"/>
+      <rect x="552" y="725" width="13" height="45" rx="7" fill="url(#gold)" transform="rotate(-8 558 748)"/>
+      <rect x="585" y="465" width="12" height="40" rx="6" fill="url(#gold)" transform="rotate(75 591 485)"/>
+      <rect x="337" y="498" width="12" height="40" rx="6" fill="url(#gold)" transform="rotate(52 343 518)"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M0 832 H276 C314 832 344 862 344 900 V1024 H0 Z" fill="#cf3034"/>
+    <text x="31" y="914" font-family="Songti SC, SimSun, serif" font-size="58" fill="#f7e9c9" font-weight="700">官方正品</text>
+  </g>
+  <rect x="343" y="904" width="681" height="95" fill="#f3e7cf" opacity="0.94"/>
+  <text x="377" y="968" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" fill="#0c0b09" font-weight="500">黑曜石绿檀木手串双圈藏级</text>
+</svg>

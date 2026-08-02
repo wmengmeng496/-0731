@@ -1,0 +1,58 @@
+.hero {
+  text-align: center;
+  padding: 42rpx 0 18rpx;
+}
+
+.dot {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #e9b870;
+}
+
+.home-card {
+  min-height: 276rpx;
+  text-align: center;
+}
+
+.home-icon {
+  color: #e9b870;
+  font-size: 54rpx;
+  line-height: 1;
+}
+
+.small-icon {
+  opacity: 0.78;
+}
+
+.home-title {
+  margin-top: 16rpx;
+  color: #f9ecd8;
+  font-family: "Songti SC", serif;
+  font-size: 32rpx;
+}
+
+.home-en {
+  margin: 6rpx 0 14rpx;
+  color: #745e43;
+  font-size: 20rpx;
+  letter-spacing: 2rpx;
+  text-transform: uppercase;
+}
+
+.action {
+  margin-top: 18rpx;
+}
+
+.magic-card.white {
+  border-color: rgba(233, 184, 112, 0.28);
+}
+
+.magic-card.black {
+  border-color: rgba(130, 37, 37, 0.55);
+}
+
+.shop-card {
+  border-color: rgba(95, 157, 128, 0.42);
+  background: linear-gradient(135deg, rgba(31, 23, 17, 0.74), rgba(31, 46, 35, 0.42));
+}

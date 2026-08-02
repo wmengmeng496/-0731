@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bazi/bazi",
+    "pages/tarot/tarot",
+    "pages/horoscope/horoscope",
+    "pages/mbti/mbti",
+    "pages/moon-blocks/moon-blocks",
+    "pages/magic/magic",
+    "pages/shop/shop",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0f0b08",
+    "navigationBarTitleText": "命运罗盘",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0f0b08"
+  },
+  "tabBar": {
+    "color": "#8f7554",
+    "selectedColor": "#e9b870",
+    "backgroundColor": "#140f0b",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "罗盘" },
+      { "pagePath": "pages/tarot/tarot", "text": "塔罗" },
+      { "pagePath": "pages/bazi/bazi", "text": "八字" },
+      { "pagePath": "pages/shop/shop", "text": "灵饰" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,31 @@
+<view class="page">
+  <view class="title">我的罗盘</view>
+  <view class="subtitle">保存测试记录、查看会员权益与后续服务入口</view>
+  <view class="card active">
+    <view class="row between">
+      <view>
+        <view class="gold user-name">未登录用户</view>
+        <view class="muted small">登录后可同步命盘、牌阵和人格报告</view>
+      </view>
+      <view class="avatar">◎</view>
+    </view>
+    <button class="button login">微信一键登录</button>
+  </view>
+  <view class="section-title">最近记录</view>
+  <view wx:for="{{records}}" wx:key="title" class="card">
+    <view class="row between">
+      <view>
+        <view class="gold">{{item.title}}</view>
+        <view class="body small">{{item.desc}}</view>
+      </view>
+      <view class="muted small">{{item.time}}</view>
+    </view>
+  </view>
+  <view class="section-title">服务规划</view>
+  <view class="card">
+    <text class="pill">年度运势报告</text>
+    <text class="pill">情感合盘</text>
+    <text class="pill">AI深度解读</text>
+    <text class="pill">订单与付费</text>
+  </view>
+</view>

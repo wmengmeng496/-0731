@@ -1,0 +1,20 @@
+.question-title {
+  margin: 30rpx 0 40rpx;
+  color: #f9ecd8;
+  font-size: 34rpx;
+  line-height: 1.55;
+}
+.option {
+  margin-top: 20rpx;
+}
+.mbti-code {
+  color: #e9b870;
+  font-family: "Songti SC", serif;
+  font-size: 86rpx;
+  text-align: center;
+}
+.type-name {
+  margin-bottom: 26rpx;
+  font-size: 34rpx;
+  text-align: center;
+}

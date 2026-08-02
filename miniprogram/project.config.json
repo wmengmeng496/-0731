@@ -1,0 +1,15 @@
+{
+  "description": "命运罗盘微信小程序",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.8.0",
+  "appid": "touristappid",
+  "projectname": "mingyun-luopan",
+  "condition": {}
+}

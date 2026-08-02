@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="1160" viewBox="0 0 1160 1160">
+  <defs>
+    <radialGradient id="paper" cx="48%" cy="36%" r="78%">
+      <stop offset="0" stop-color="#f8e7c4"/>
+      <stop offset=".58" stop-color="#ead09d"/>
+      <stop offset="1" stop-color="#d6ae74"/>
+    </radialGradient>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .06"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="softShadow" x="-35%" y="-35%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#6b431f" flood-opacity=".24"/>
+    </filter>
+    <filter id="smallShadow" x="-35%" y="-35%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#5b3722" flood-opacity=".28"/>
+    </filter>
+    <radialGradient id="beadGold" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#fff1b7"/>
+      <stop offset=".28" stop-color="#d9a04b"/>
+      <stop offset="1" stop-color="#9d6424"/>
+    </radialGradient>
+    <radialGradient id="beadCream" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset=".36" stop-color="#f6eee0"/>
+      <stop offset="1" stop-color="#cfc2aa"/>
+    </radialGradient>
+    <radialGradient id="beadBlack" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#68665d"/>
+      <stop offset=".32" stop-color="#1f2021"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="beadRed" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#ffb191"/>
+      <stop offset=".35" stop-color="#c7342c"/>
+      <stop offset="1" stop-color="#7c1716"/>
+    </radialGradient>
+    <radialGradient id="beadYellow" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#fff7a8"/>
+      <stop offset=".38" stop-color="#e9c91f"/>
+      <stop offset="1" stop-color="#b68b0f"/>
+    </radialGradient>
+    <radialGradient id="beadTurquoise" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#b9fff5"/>
+      <stop offset=".36" stop-color="#27a7b8"/>
+      <stop offset="1" stop-color="#126a76"/>
+    </radialGradient>
+    <radialGradient id="beadGreen" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#8aa76f"/>
+      <stop offset=".36" stop-color="#2d5a36"/>
+      <stop offset="1" stop-color="#132d1b"/>
+    </radialGradient>
+    <radialGradient id="beadBrown" cx="32%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#e3a25d"/>
+      <stop offset=".36" stop-color="#8a5a2b"/>
+      <stop offset="1" stop-color="#402615"/>
+    </radialGradient>
+    <pattern id="seedMarks" width="48" height="48" patternUnits="userSpaceOnUse">
+      <ellipse cx="10" cy="15" rx="3" ry="1.7" fill="#5c351b" opacity=".24" transform="rotate(-24 10 15)"/>
+      <ellipse cx="26" cy="28" rx="4" ry="1.8" fill="#5c351b" opacity=".2" transform="rotate(30 26 28)"/>
+      <ellipse cx="37" cy="12" rx="2.5" ry="1.6" fill="#fff8e3" opacity=".28" transform="rotate(18 37 12)"/>
+      <circle cx="18" cy="38" r="2" fill="#6b431f" opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1160" height="1160" rx="10" fill="url(#paper)"/>
+  <rect width="1160" height="1160" rx="10" filter="url(#paperNoise)" opacity=".5"/>
+  <path d="M83 86 C240 38 426 50 604 92 C780 133 945 110 1078 64" fill="none" stroke="#fff5dc" stroke-width="2" opacity=".36"/>
+  <path d="M84 1026 C242 974 432 992 598 1032 C786 1076 938 1060 1076 1016" fill="none" stroke="#87542a" stroke-width="2" opacity=".12"/>
+
+  <text x="70" y="82" fill="#a36d2b" font-size="22" letter-spacing="7" font-family="Arial, sans-serif">LINGYIN</text>
+  <text x="580" y="98" fill="#8a2a1d" font-size="40" font-weight="700" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC',serif">灵隐寺十八籽多宝菩提</text>
+  <text x="580" y="146" fill="#704b2c" font-size="24" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC',serif">18籽多宝手串 / 跑量款至精品圆满款</text>
+
+  <g transform="translate(182 174)">
+    <rect x="0" y="0" width="798" height="798" rx="34" fill="#f2d9a8" opacity=".58"/>
+    <rect x="38" y="36" width="720" height="720" rx="28" fill="#e9c994" opacity=".36"/>
+    <circle cx="399" cy="404" r="256" fill="#f7e4bc" opacity=".76"/>
+    <circle cx="399" cy="404" r="214" fill="none" stroke="#9b6a31" stroke-width="3" stroke-opacity=".18"/>
+    <circle cx="399" cy="404" r="150" fill="#f4d8a7" opacity=".7"/>
+    <text x="399" y="364" fill="#17120d" font-size="72" font-weight="700" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC',serif">十八</text>
+    <text x="399" y="446" fill="#17120d" font-size="72" font-weight="700" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC',serif">籽</text>
+    <text x="482" y="364" fill="#4e321d" font-size="24" writing-mode="tb" font-family="'Songti SC','Noto Serif CJK SC',serif">多宝手串</text>
+    <text x="302" y="482" fill="#9b2d1f" font-size="22" font-weight="700" font-family="'Songti SC','Noto Serif CJK SC',serif">正宗</text>
+
+    <g filter="url(#softShadow)">
+      <circle cx="399" cy="100" r="42" fill="url(#beadGold)"/>
+      <circle cx="502" cy="124" r="36" fill="url(#beadBlack)"/>
+      <circle cx="586" cy="188" r="39" fill="url(#beadRed)"/>
+      <circle cx="648" cy="283" r="42" fill="url(#beadCream)"/>
+      <circle cx="676" cy="388" r="35" fill="url(#beadGold)"/>
+      <circle cx="653" cy="496" r="39" fill="url(#beadGreen)"/>
+      <circle cx="587" cy="587" r="43" fill="url(#beadTurquoise)"/>
+      <circle cx="499" cy="650" r="35" fill="url(#beadCream)"/>
+      <circle cx="399" cy="674" r="40" fill="url(#beadBrown)"/>
+      <circle cx="299" cy="650" r="35" fill="url(#beadYellow)"/>
+      <circle cx="211" cy="587" r="43" fill="url(#beadCream)"/>
+      <circle cx="145" cy="496" r="39" fill="url(#beadGold)"/>
+      <circle cx="122" cy="388" r="35" fill="url(#beadRed)"/>
+      <circle cx="150" cy="283" r="42" fill="url(#beadBlack)"/>
+      <circle cx="212" cy="188" r="39" fill="url(#beadCream)"/>
+      <circle cx="296" cy="124" r="36" fill="url(#beadTurquoise)"/>
+      <circle cx="348" cy="91" r="30" fill="url(#beadYellow)"/>
+      <circle cx="450" cy="91" r="30" fill="url(#beadBrown)"/>
+    </g>
+
+    <g opacity=".6">
+      <circle cx="399" cy="100" r="42" fill="url(#seedMarks)"/>
+      <circle cx="648" cy="283" r="42" fill="url(#seedMarks)"/>
+      <circle cx="653" cy="496" r="39" fill="url(#seedMarks)"/>
+      <circle cx="399" cy="674" r="40" fill="url(#seedMarks)"/>
+      <circle cx="145" cy="496" r="39" fill="url(#seedMarks)"/>
+      <circle cx="150" cy="283" r="42" fill="url(#seedMarks)"/>
+    </g>
+
+    <g filter="url(#smallShadow)">
+      <path d="M356 702 C371 748 427 748 442 702" fill="#c89241"/>
+      <rect x="366" y="666" width="66" height="74" rx="26" fill="#bf8437"/>
+      <path d="M381 735 C362 799 360 850 330 908" fill="none" stroke="#5b3722" stroke-width="7" stroke-linecap="round"/>
+      <path d="M418 735 C438 799 439 850 470 908" fill="none" stroke="#5b3722" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="321" cy="926" r="24" fill="url(#beadCream)" stroke="#704b2c" stroke-width="2"/>
+      <circle cx="481" cy="926" r="24" fill="url(#beadGold)" stroke="#704b2c" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g transform="translate(842 266)">
+    <rect x="0" y="0" width="238" height="448" rx="22" fill="#fff5dc" opacity=".58"/>
+    <text x="28" y="54" fill="#8a2a1d" font-size="30" font-weight="700" font-family="'Songti SC','Noto Serif CJK SC',serif">款式梯度</text>
+    <g font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="22" fill="#2b1a0f">
+      <circle cx="34" cy="103" r="10" fill="#d9a04b"/>
+      <text x="56" y="111">款一 跑量款</text>
+      <circle cx="34" cy="163" r="10" fill="#111111"/>
+      <text x="56" y="171">款三 凤眼圆满</text>
+      <circle cx="34" cy="223" r="10" fill="#27a7b8"/>
+      <text x="56" y="231">款四 第三代</text>
+      <circle cx="34" cy="283" r="10" fill="#c7342c"/>
+      <text x="56" y="291">款五 精品圆满</text>
+      <circle cx="34" cy="343" r="10" fill="#2d5a36"/>
+      <text x="56" y="351">款七 灵隐同款</text>
+    </g>
+    <rect x="30" y="380" width="178" height="42" rx="21" fill="#9b2d1f" opacity=".92"/>
+    <text x="119" y="408" fill="#fff5dc" font-size="22" font-weight="700" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC',serif">现货先上架</text>
+  </g>
+
+  <g transform="translate(82 1002)">
+    <text fill="#7b5632" font-size="23" font-family="'Songti SC','Noto Serif CJK SC',serif">星月 / 凤眼 / 莲花 / 金刚 / 多色配珠</text>
+    <text y="44" fill="#9b2d1f" font-size="31" font-weight="700" font-family="'Songti SC','Noto Serif CJK SC',serif">参考售价 ¥89 起</text>
+  </g>
+</svg>

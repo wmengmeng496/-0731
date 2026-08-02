@@ -1,0 +1,2190 @@
+{
+  "sourceOffer": {
+    "offerUrl": "https://detail.1688.com/offer/897348993194.html?forcePC=1",
+    "offerId": 897348993194,
+    "title": "珠光瓷珠手串宫廷寺庙同款香灰瓷琉璃DIY文玩饰品景区文创手链",
+    "seller": {
+      "companyName": "义乌市天义电子商务有限公司",
+      "loginId": "义乌天义电子商务",
+      "shopUrl": "https://shop9386k225cp453.1688.com",
+      "offerlistUrl": "https://shop9386k225cp453.1688.com/page/offerlist.html"
+    },
+    "price": {
+      "min": "5.00",
+      "max": "5.00",
+      "display": "5.00",
+      "unit": "个",
+      "beginAmount": 1
+    },
+    "skuImages": [
+      {
+        "name": "粉瓷（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "灰瓷（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "黑瓷（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "黑瓷（珠径12mm14颗）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "黑瓷（珠径14mm13颗）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "粉灰瓷（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "马卡龙5色（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "乳白瓷（古银）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "青花瓷（10mm珠径）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "白蓝粉（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "灰瓷（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "墨绿瓷（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "粉白瓷（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "黄色瓷（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "白色珠（金色）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "粉色转经筒",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "灰色转经筒",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "珠光多色佛头款",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "纸袋+布袋（不含手串）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "纸袋布袋+OPP袋子（不含手串）",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.jpg"
+      },
+      {
+        "name": "9*9真空抽拉盒",
+        "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.jpg"
+      }
+    ],
+    "skuOptions": [
+      {
+        "skuId": 5749430932139,
+        "name": "乳白瓷（古银）",
+        "stock": 4616,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5817991884523,
+        "name": "黑瓷（珠径14mm13颗）",
+        "stock": 4978,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932145,
+        "name": "白色珠（金色）",
+        "stock": 4897,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932141,
+        "name": "灰瓷（金色）",
+        "stock": 4886,
+        "saleCount": 0
+      },
+      {
+        "skuId": 6231152527527,
+        "name": "纸袋布袋+OPP袋子（不含手串）",
+        "stock": 4979,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932147,
+        "name": "灰色转经筒",
+        "stock": 4869,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5946072368614,
+        "name": "纸袋+布袋（不含手串）",
+        "stock": 3695,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932146,
+        "name": "粉色转经筒",
+        "stock": 4854,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932136,
+        "name": "黑瓷（古银）",
+        "stock": 3968,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932135,
+        "name": "灰瓷（古银）",
+        "stock": 4278,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932144,
+        "name": "黄色瓷（金色）",
+        "stock": 4901,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932134,
+        "name": "粉瓷（古银）",
+        "stock": 2149,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932148,
+        "name": "珠光多色佛头款",
+        "stock": 5777,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5821599021018,
+        "name": "青花瓷（10mm珠径）",
+        "stock": 4958,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932140,
+        "name": "白蓝粉（金色）",
+        "stock": 4828,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932143,
+        "name": "粉白瓷（金色）",
+        "stock": 4901,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5817991884522,
+        "name": "黑瓷（珠径12mm14颗）",
+        "stock": 5036,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932137,
+        "name": "粉灰瓷（古银）",
+        "stock": 4329,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932142,
+        "name": "墨绿瓷（金色）",
+        "stock": 4892,
+        "saleCount": 0
+      },
+      {
+        "skuId": 6231152527528,
+        "name": "9*9真空抽拉盒",
+        "stock": 49999,
+        "saleCount": 0
+      },
+      {
+        "skuId": 5749430932138,
+        "name": "马卡龙5色（古银）",
+        "stock": 4707,
+        "saleCount": 0
+      }
+    ],
+    "galleryImages": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.jpg",
+      "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.jpg"
+    ],
+    "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss1788961978364617942d2b105b",
+    "rawCategory": {
+      "topCategoryId": null,
+      "secondCategoryId": null,
+      "leafCategoryId": 125742005
+    },
+    "detailFetchError": "fetch failed",
+    "images": [
+      {
+        "index": 0,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.jpg",
+        "localFile": "images/001.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 1,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.jpg",
+        "localFile": "images/002.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 2,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.jpg",
+        "localFile": "images/003.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 3,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.jpg",
+        "localFile": "images/004.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 4,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.jpg",
+        "localFile": "images/005.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 5,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.jpg",
+        "localFile": "images/006.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 6,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.jpg",
+        "localFile": "images/007.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 7,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.jpg",
+        "localFile": "images/008.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 8,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.jpg",
+        "localFile": "images/009.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 9,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.jpg",
+        "localFile": "images/010.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 10,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.jpg",
+        "localFile": "images/011.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 11,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.jpg",
+        "localFile": "images/012.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 12,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.jpg",
+        "localFile": "images/013.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 13,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.jpg",
+        "localFile": "images/014.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 14,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.jpg",
+        "localFile": "images/015.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 15,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.jpg",
+        "localFile": "images/016.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 16,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.jpg",
+        "localFile": "images/017.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 17,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.jpg",
+        "localFile": "images/018.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 18,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.jpg",
+        "localFile": "images/019.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 19,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.jpg",
+        "localFile": "images/020.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 20,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.jpg",
+        "localFile": "images/021.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 21,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.jpg",
+        "localFile": "images/022.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 22,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.jpg",
+        "localFile": "images/023.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 23,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.jpg",
+        "localFile": "images/024.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 24,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.jpg",
+        "localFile": "images/025.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 25,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.jpg",
+        "localFile": "images/026.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 26,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN017CFm2N1VGIlNnt3iz_!!6000000002625-2-tps-2190-1356.png",
+        "localFile": "images/027.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 27,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01ZvNktK1ywYCPcwtcR_!!6000000006643-2-tps-32-32.png",
+        "localFile": "images/028.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 28,
+        "url": "https://img.alicdn.com/imgextra/i4/O1CN015dO1Li1KiHE0brm3j_!!6000000001197-2-tps-64-64.png",
+        "localFile": "images/029.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 29,
+        "url": "https://img.alicdn.com/imgextra/i3/O1CN01pbZ3Ke1FsHnlmAwRl_!!6000000000542-2-tps-24-24.png",
+        "localFile": "images/030.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 30,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN0138HBhh1XF2x7LMeaO_!!6000000002893-2-tps-58-58.png",
+        "localFile": "images/031.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 31,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01lJPwkj1fLTR8Rgu7r_!!6000000003990-2-tps-16-16.png",
+        "localFile": "images/032.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 32,
+        "url": "https://img.alicdn.com/imgextra/i3/O1CN01pBIjwH238Eli04JFY_!!6000000007210-2-tps-48-48.png",
+        "localFile": "images/033.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 33,
+        "url": "https://img.alicdn.com/imgextra/i4/O1CN0117b6c31nXr321RPRf_!!6000000005100-2-tps-32-32.png",
+        "localFile": "images/034.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 34,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN0107HvBS1brkrsbDgEm_!!6000000003519-2-tps-64-64.png",
+        "localFile": "images/035.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 35,
+        "url": "https://img.alicdn.com/imgextra/i4/O1CN01hFb0dR1akb3tjDK2N_!!6000000003368-2-tps-24-24.png",
+        "localFile": "images/036.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 36,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN011E2rG11bAFEwxiRaQ_!!6000000003424-2-tps-58-58.png",
+        "localFile": "images/037.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 37,
+        "url": "https://img.alicdn.com/imgextra/i3/O1CN01FiqLFk1tBJFJrBLNd_!!6000000005863-2-tps-16-16.png",
+        "localFile": "images/038.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 38,
+        "url": "https://img.alicdn.com/imgextra/i4/O1CN019OxWBv1NyiGRNpf36_!!6000000001639-2-tps-48-48.png",
+        "localFile": "images/039.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 39,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01dNPHxv1UZhbWE3yPO_!!6000000002532-2-tps-32-32.png",
+        "localFile": "images/040.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 40,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+        "localFile": "images/041.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 41,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01H10f2n1gAJ1vgHRgN_!!6000000004101-2-tps-24-24.png",
+        "localFile": "images/042.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 42,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01qUUUwV1RIo98arRvQ_!!6000000002089-2-tps-58-58.png",
+        "localFile": "images/043.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 43,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+        "localFile": "images/044.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 44,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01iYPe5E1YGhdWMDnh8_!!6000000003032-2-tps-48-48.png",
+        "localFile": "images/045.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 45,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01VvqbTG1K5nVfaHhdS_!!6000000001113-2-tps-32-32.png",
+        "localFile": "images/046.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 46,
+        "url": "https://img.alicdn.com/imgextra/i3/O1CN01dcTxhB1f7j6hzsS7s_!!6000000003960-2-tps-64-64.png",
+        "localFile": "images/047.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 47,
+        "url": "https://img.alicdn.com/imgextra/i2/O1CN01y8loDJ21Ie6CBum7n_!!6000000006962-2-tps-24-24.png",
+        "localFile": "images/048.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 48,
+        "url": "https://img.alicdn.com/imgextra/i1/O1CN01MKJkrw1ksy2RwBtJO_!!6000000004740-2-tps-58-58.png",
+        "localFile": "images/049.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 49,
+        "url": "https://img.alicdn.com/imgextra/i4/O1CN01tnZSFq1Gfk8BH5kkH_!!6000000000650-2-tps-16-16.png",
+        "localFile": "images/050.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 50,
+        "url": "https://img.alicdn.com/imgextra/i3/O1CN01ASkwpL1cIloQXSmWF_!!6000000003578-2-tps-48-48.png",
+        "localFile": "images/051.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 51,
+        "url": "https://img.alicdn.com/tfs/TB1ZwSvqG6qK1RjSZFmXXX0PFXa-100-100.png",
+        "localFile": "images/052.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 52,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/053.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 53,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/054.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 54,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/055.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 55,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CypiLq26g4ml7XGR2_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/056.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 56,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/057.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 57,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/058.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 58,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/059.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 59,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01R9BfUR26g4qFg7VhG_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/060.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 60,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/061.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 61,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/062.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 62,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/063.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 63,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01CQ2FMB26g4qGZc30C_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/064.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 64,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/065.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 65,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/066.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 66,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/067.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 67,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YXCPCo26g4qGvSkN2_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/068.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 68,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/069.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 69,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/070.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 70,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/071.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 71,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01IinBYR26g4qFg87JR_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/072.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 72,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/073.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 73,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/074.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 74,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/075.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 75,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YaMZ2L26g4sdR6Anx_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/076.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 76,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/077.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 77,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/078.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 78,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/079.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 79,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01kSNntk26g4jKM9OHZ_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/080.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 80,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/081.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 81,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/082.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 82,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/083.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 83,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/084.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 84,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/085.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 85,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/086.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 86,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/087.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 87,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/088.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 88,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/089.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 89,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/090.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 90,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/091.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 91,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/092.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 92,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/093.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 93,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/094.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 94,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/095.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 95,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/096.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 96,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/097.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 97,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/098.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 98,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/099.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 99,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/100.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 100,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/101.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 101,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/102.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 102,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/103.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 103,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/104.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 104,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/105.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 105,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/106.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 106,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/107.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 107,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/108.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 108,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/109.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 109,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/110.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 110,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/111.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 111,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/112.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 112,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/113.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 113,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/114.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 114,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/115.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 115,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/116.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 116,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/117.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 117,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/118.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 118,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/119.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 119,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/120.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 120,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/121.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 121,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/122.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 122,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/123.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 123,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/124.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 124,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/125.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 125,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/126.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 126,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/127.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 127,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/128.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 128,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/129.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 129,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/130.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 130,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/131.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 131,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/132.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 132,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/133.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 133,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/134.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 134,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/135.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 135,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/136.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 136,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/137.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 137,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/138.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 138,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/139.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 139,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/140.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 140,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/141.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 141,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/142.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 142,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/143.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 143,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/144.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 144,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/145.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 145,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/146.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 146,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/147.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 147,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/148.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 148,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/149.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 149,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/150.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 150,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/151.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 151,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01yuFUdV26g4sdZunZg_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/152.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 152,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.220x220.jpg",
+        "localFile": "images/153.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 153,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.search.jpg",
+        "localFile": "images/154.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 154,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.summ.jpg",
+        "localFile": "images/155.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 155,
+        "url": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.310x310.jpg",
+        "localFile": "images/156.jpg",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 156,
+        "url": "https://gw.alicdn.com/imgextra/i4/O1CN011mMQtb1FeXSdkkzba_!!6000000000512-2-tps-180-58.png",
+        "localFile": "images/157.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 157,
+        "url": "https://gw.alicdn.com/imgextra/i4/O1CN01PSCyn71m4hnAGoMEY_!!6000000004901-2-tps-1428-226.png",
+        "localFile": "images/158.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 158,
+        "url": "https://gw.alicdn.com/tfs/TB1gmeRp7cx_u4jSZFlXXXnUFXa-1071-138.png",
+        "localFile": "images/159.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 159,
+        "url": "https://gw.alicdn.com/imgextra/i4/O1CN01regVZY1iimPD1knzd_!!6000000004447-2-tps-120-64.png",
+        "localFile": "images/160.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 160,
+        "url": "https://gw.alicdn.com/imgextra/i2/O1CN01ocXV9u1k1qAcVUuZa_!!6000000004624-2-tps-41-36.png",
+        "localFile": "images/161.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 161,
+        "url": "https://gw.alicdn.com/imgextra/i3/O1CN01H5WVsg28BVIahbDwn_!!6000000007894-2-tps-54-57.png",
+        "localFile": "images/162.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 162,
+        "url": "https://gw.alicdn.com/imgextra/i1/O1CN01aIT6Mz1ypDoow2ZEp_!!6000000006627-2-tps-200-64.png",
+        "localFile": "images/163.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 163,
+        "url": "https://gw.alicdn.com/imgextra/i1/O1CN01hnefLF1Vk4AiuDWHQ_!!6000000002690-2-tps-63-57.png",
+        "localFile": "images/164.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 164,
+        "url": "https://img.alicdn.com/tfs/TB19FQtP4D1gK0jSZFsXXbldVXa-26-44.png",
+        "localFile": "images/165.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 165,
+        "url": "https://gw.alicdn.com/tfs/TB1YYyRuhTpK1RjSZFMXXbG_VXa-36-36.png",
+        "localFile": "images/166.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 166,
+        "url": "https://cbu01.alicdn.com/cms/upload/2016/926/836/2638629_532208266.png",
+        "localFile": "images/167.png",
+        "downloadError": "fetch failed"
+      },
+      {
+        "index": 167,
+        "url": "https://cbu01.alicdn.com/cms/upload/2016/706/936/2639607_532208266.png",
+        "localFile": "images/168.png",
+        "downloadError": "fetch failed"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "1688-粉瓷-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款粉瓷（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "粉瓷（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01nDjQ2t26g4mkvHIyP_!!2217769807690-0-cib.jpg",
+      "localImage": "images/006.jpg",
+      "form": "粉瓷（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "桃花"
+      ],
+      "materials": [
+        "粉瓷珠",
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#f5d9dd",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款粉瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-灰瓷-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款灰瓷（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "灰瓷（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01GUrLZ526g4mkvGEUF_!!2217769807690-0-cib.jpg",
+      "localImage": "images/007.jpg",
+      "form": "灰瓷（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安"
+      ],
+      "materials": [
+        "灰瓷珠",
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#8d9095",
+        "#d6d0c5",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款灰瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-黑瓷-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款黑瓷（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "黑瓷（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN0129QbmJ26g4ml7GHBG_!!2217769807690-0-cib.jpg",
+      "localImage": "images/008.jpg",
+      "form": "黑瓷（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "护身"
+      ],
+      "materials": [
+        "黑瓷珠",
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#1f1f22",
+        "#121212",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款黑瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-黑瓷-珠径12mm14颗",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款黑瓷（珠径12mm14颗）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "黑瓷（珠径12mm14颗）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01PUXmTy26g4o27aRh7_!!2217769807690-0-cib.jpg",
+      "localImage": "images/009.jpg",
+      "form": "黑瓷（珠径12mm14颗） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "护身"
+      ],
+      "materials": [
+        "黑瓷珠"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#1f1f22",
+        "#121212",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款黑瓷（珠径12mm14颗）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-黑瓷-珠径14mm13颗",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款黑瓷（珠径14mm13颗）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "黑瓷（珠径14mm13颗）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01exK4lb26g4o3FceOJ_!!2217769807690-0-cib.jpg",
+      "localImage": "images/010.jpg",
+      "form": "黑瓷（珠径14mm13颗） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "护身"
+      ],
+      "materials": [
+        "黑瓷珠"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#1f1f22",
+        "#121212",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款黑瓷（珠径14mm13颗）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-粉灰瓷-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款粉灰瓷（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "粉灰瓷（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01lvVt8P26g4mm9AZPu_!!2217769807690-0-cib.jpg",
+      "localImage": "images/011.jpg",
+      "form": "粉灰瓷（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "桃花"
+      ],
+      "materials": [
+        "灰瓷珠",
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#f5d9dd",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款粉灰瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-马卡龙5色-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款马卡龙5色（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "马卡龙5色（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01r9LmYI26g4ml6z9vu_!!2217769807690-0-cib.jpg",
+      "localImage": "images/012.jpg",
+      "form": "马卡龙5色（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安"
+      ],
+      "materials": [
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#d7ebd0",
+        "#f0d58c",
+        "#8d9095"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款马卡龙5色（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-乳白瓷-古银",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款乳白瓷（古银）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "乳白瓷（古银）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01wwkzTL26g4qFEsnuC_!!2217769807690-0-cib.jpg",
+      "localImage": "images/013.jpg",
+      "form": "乳白瓷（古银） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安"
+      ],
+      "materials": [
+        "乳白瓷珠",
+        "古银配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#f6eee0",
+        "#e7dfcf",
+        "#d8b48a"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款乳白瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-青花瓷-10mm珠径",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款青花瓷（10mm珠径）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "青花瓷（10mm珠径）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01RHmyjr26g4sdFlobZ_!!2217769807690-0-cib.jpg",
+      "localImage": "images/014.jpg",
+      "form": "青花瓷（10mm珠径） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "智慧"
+      ],
+      "materials": [
+        "青花瓷珠"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#f6eee0",
+        "#1d5c9f",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款青花瓷（10mm珠径）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-白蓝粉-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款白蓝粉（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "白蓝粉（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01T9MMfJ26g4qAvB2C7_!!2217769807690-0-cib.jpg",
+      "localImage": "images/015.jpg",
+      "form": "白蓝粉（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "智慧",
+        "桃花",
+        "求财"
+      ],
+      "materials": [
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#f5d9dd",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款白蓝粉（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-灰瓷-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款灰瓷（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "灰瓷（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01YsnCQy26g4qG6NTJg_!!2217769807690-0-cib.jpg",
+      "localImage": "images/016.jpg",
+      "form": "灰瓷（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "求财"
+      ],
+      "materials": [
+        "灰瓷珠",
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#8d9095",
+        "#d6d0c5",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款灰瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-墨绿瓷-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款墨绿瓷（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "墨绿瓷（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01hxiiBc26g4qFgZZgk_!!2217769807690-0-cib.jpg",
+      "localImage": "images/017.jpg",
+      "form": "墨绿瓷（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "求财"
+      ],
+      "materials": [
+        "墨绿瓷珠",
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#2f4f3c",
+        "#0f2c1e",
+        "#d8b48a"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款墨绿瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-粉白瓷-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款粉白瓷（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "粉白瓷（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Jx9E3G26g4qGyf8aa_!!2217769807690-0-cib.jpg",
+      "localImage": "images/018.jpg",
+      "form": "粉白瓷（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "桃花",
+        "求财"
+      ],
+      "materials": [
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#f5d9dd",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款粉白瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-黄色瓷-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款黄色瓷（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "黄色瓷（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01lWJ9Ta26g4qFF28TJ_!!2217769807690-0-cib.jpg",
+      "localImage": "images/019.jpg",
+      "form": "黄色瓷（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "求财"
+      ],
+      "materials": [
+        "黄色瓷珠",
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a84c",
+        "#f0d58c",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款黄色瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-白色珠-金色",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款白色珠（金色）手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "白色珠（金色）",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01fDviQN26g4qGaNEx4_!!2217769807690-0-cib.jpg",
+      "localImage": "images/020.jpg",
+      "form": "白色珠（金色） + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "求财"
+      ],
+      "materials": [
+        "乳白瓷珠",
+        "金色配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#f6eee0",
+        "#e7dfcf",
+        "#d8b48a"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款白色珠（金色）手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-粉色转经筒",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款粉色转经筒手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "粉色转经筒",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01ECHVlm26g4mlLNvDx_!!2217769807690-0-cib.jpg",
+      "localImage": "images/021.jpg",
+      "form": "粉色转经筒 + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安",
+        "桃花"
+      ],
+      "materials": [
+        "转经筒配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#f5d9dd",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款粉色转经筒手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-灰色转经筒",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款灰色转经筒手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "灰色转经筒",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01wDyTE026g4mjrzlAZ_!!2217769807690-0-cib.jpg",
+      "localImage": "images/022.jpg",
+      "form": "灰色转经筒 + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安"
+      ],
+      "materials": [
+        "转经筒配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#8d9095",
+        "#d6d0c5",
+        "#c8c0b4"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款灰色转经筒手串，想看实拍、手围和是否可做开光礼盒。"
+    },
+    {
+      "id": "1688-珠光多色佛头款",
+      "tradition": "eastern",
+      "category": "temple",
+      "name": "寺庙同款珠光多色佛头款手串",
+      "source": "1688:义乌市天义电子商务有限公司",
+      "sourceOfferId": 897348993194,
+      "sourceSkuName": "珠光多色佛头款",
+      "sourceImageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01DqGspg26g4mew0Rvw_!!2217769807690-0-cib.jpg",
+      "localImage": "images/023.jpg",
+      "form": "珠光多色佛头款 + 宫廷风配件",
+      "supplyPrice": 5,
+      "suggestedPrice": 69,
+      "intention": [
+        "颜值",
+        "转运",
+        "平安"
+      ],
+      "materials": [
+        "佛头配件"
+      ],
+      "summary": "寺庙同款宫廷风瓷珠手串，适合做低门槛引流款、颜值款和来图定制款。",
+      "care": "瓷珠避免摔碰和硬物摩擦；金属配件用软布擦拭，日常保持干燥。",
+      "palette": [
+        "#d8a9b7",
+        "#d7ebd0",
+        "#f0d58c",
+        "#8d9095"
+      ],
+      "sellingPoints": [
+        "供应价低，适合做引流款",
+        "颜色 SKU 丰富，方便按命盘/星座推荐",
+        "宫廷风视觉明确，适合手机端商品图展示"
+      ],
+      "skuOptions": [
+        {
+          "name": "基础现货款",
+          "price": 69
+        },
+        {
+          "name": "净化包装款",
+          "price": 99
+        },
+        {
+          "name": "开光礼盒款",
+          "price": 168
+        }
+      ],
+      "consultPrompt": "我想咨询寺庙同款珠光多色佛头款手串，想看实拍、手围和是否可做开光礼盒。"
+    }
+  ]
+}

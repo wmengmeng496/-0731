@@ -1,0 +1,74 @@
+<view class="page">
+  <view class="title">易经八字</view>
+  <view class="subtitle">输入生辰，推演四柱命理与八字合婚</view>
+
+  <view class="tabs">
+    <view class="tab {{tab==='personal'?'active':''}}" bindtap="switchTab" data-tab="personal">个人命理</view>
+    <view class="tab {{tab==='marriage'?'active':''}}" bindtap="switchTab" data-tab="marriage">八字合婚</view>
+  </view>
+
+  <view wx:if="{{tab==='personal'}}" class="card">
+    <view class="field">
+      <text class="label">出生日期</text>
+      <picker mode="date" bindchange="setForm" data-key="birthDate"><view class="picker">{{form.birthDate || '请选择日期'}}</view></picker>
+    </view>
+    <view class="field">
+      <text class="label">出生时间</text>
+      <picker mode="time" value="{{form.birthTime}}" bindchange="setForm" data-key="birthTime"><view class="picker">{{form.birthTime}}</view></picker>
+    </view>
+    <view class="field">
+      <text class="label">性别</text>
+      <picker range="{{genderItems}}" value="{{form.gender}}" bindchange="setForm" data-key="gender"><view class="picker">{{genderItems[form.gender]}}</view></picker>
+    </view>
+    <button class="button" loading="{{loading}}" bindtap="calculate">推演命盘</button>
+  </view>
+
+  <view wx:if="{{tab==='marriage'}}" class="card">
+    <view class="section-title">甲方信息</view>
+    <picker mode="date" bindchange="setMate" data-key="p1Date"><view class="picker field">{{mate.p1Date || '甲方出生日期'}}</view></picker>
+    <picker mode="time" value="{{mate.p1Time}}" bindchange="setMate" data-key="p1Time"><view class="picker field">{{mate.p1Time}}</view></picker>
+    <view class="section-title">乙方信息</view>
+    <picker mode="date" bindchange="setMate" data-key="p2Date"><view class="picker field">{{mate.p2Date || '乙方出生日期'}}</view></picker>
+    <picker mode="time" value="{{mate.p2Time}}" bindchange="setMate" data-key="p2Time"><view class="picker field">{{mate.p2Time}}</view></picker>
+    <button class="button" loading="{{loading}}" bindtap="calculateMatch">合婚分析</button>
+  </view>
+
+  <view wx:if="{{result}}" class="card active">
+    <text class="pill">{{result.ai.used ? 'AI深度解读' : '本地模板解读'}}</text>
+    <view class="section-title">四柱命盘</view>
+    <view wx:if="{{result.overview}}" class="body gold">{{result.overview}}</view>
+    <view class="pillars">
+      <view wx:for="{{result.pillars}}" wx:key="label" class="pillar">
+        <view class="muted small">{{item.label}}</view>
+        <view class="pillar-text">{{item.value}}</view>
+        <view class="gold small">{{item.element}}</view>
+      </view>
+    </view>
+    <view wx:for="{{result.sections}}" wx:key="title" class="reading">
+      <view class="gold">{{item.title}}</view>
+      <view class="body">{{item.content}}</view>
+    </view>
+  </view>
+
+  <view wx:if="{{result.remedy}}" class="card active">
+    <view class="section-title">破解 / 转化建议</view>
+    <view class="gold">{{result.remedy.title}}</view>
+    <view class="body">{{result.remedy.summary}}</view>
+    <view wx:for="{{result.remedy.beads}}" wx:key="id" class="reading">
+      <text class="pill">{{item.name}}</text>
+      <view class="body small">{{item.direction}} · {{item.effect}}</view>
+    </view>
+    <button class="ghost-button" bindtap="goShop">进入灵饰定制</button>
+  </view>
+
+  <view wx:if="{{match}}" class="card active">
+    <text class="pill">{{match.ai.used ? 'AI深度解读' : '本地模板解读'}}</text>
+    <view class="score">{{match.score}}</view>
+    <view class="gold match-level">{{match.level}}</view>
+    <view class="body">{{match.summary}}</view>
+    <view wx:for="{{match.details}}" wx:key="title" class="reading">
+      <text class="pill">{{item.title}}</text>
+      <view class="body">{{item.content}}</view>
+    </view>
+  </view>
+</view>

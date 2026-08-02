@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>命运罗盘小程序预览</title>
+  <style>
+    :root {
+      --bg: #0f0b08;
+      --panel: rgba(31, 23, 17, 0.78);
+      --panel-2: #140f0b;
+      --line: #5a4735;
+      --gold: #e9b870;
+      --gold-2: #c97a1f;
+      --text: #f9ecd8;
+      --muted: #8f7554;
+      --soft: #d4cbb8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(201, 122, 31, 0.22), transparent 28%),
+        radial-gradient(circle at 78% 22%, rgba(233, 184, 112, 0.12), transparent 24%),
+        var(--bg);
+    }
+    .stage {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(260px, 390px) minmax(240px, 440px);
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+      padding: 28px;
+    }
+    .intro h1 {
+      margin: 0 0 16px;
+      font-family: "Songti SC", "Noto Serif SC", serif;
+      font-size: clamp(38px, 6vw, 72px);
+      font-weight: 600;
+      letter-spacing: 0;
+    }
+    .intro p {
+      max-width: 390px;
+      color: var(--soft);
+      line-height: 1.8;
+    }
+    .intro .badge {
+      display: inline-flex;
+      margin-bottom: 22px;
+      padding: 7px 14px;
+      border: 1px solid rgba(201, 122, 31, 0.32);
+      border-radius: 999px;
+      color: var(--gold);
+      background: rgba(201, 122, 31, 0.08);
+      font-size: 12px;
+      letter-spacing: 4px;
+    }
+    .phone {
+      width: min(390px, calc(100vw - 32px));
+      height: min(820px, calc(100vh - 40px));
+      min-height: 680px;
+      border: 1px solid rgba(233, 184, 112, 0.25);
+      border-radius: 34px;
+      background: #080604;
+      box-shadow: 0 28px 90px rgba(0, 0, 0, 0.46);
+      overflow: hidden;
+    }
+    .screen {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(circle at 24% 6%, rgba(201, 122, 31, 0.14), transparent 28%),
+        radial-gradient(circle at 84% 18%, rgba(233, 184, 112, 0.08), transparent 25%),
+        var(--bg);
+    }
+    .nav {
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid rgba(90, 71, 53, 0.45);
+      background: rgba(15, 11, 8, 0.78);
+      font-weight: 600;
+    }
+    .content {
+      flex: 1;
+      overflow: auto;
+      padding: 24px 18px 92px;
+      scrollbar-width: none;
+    }
+    .content::-webkit-scrollbar { display: none; }
+    .eyebrow {
+      display: inline-flex;
+      padding: 6px 12px;
+      border: 1px solid rgba(201, 122, 31, 0.28);
+      border-radius: 999px;
+      color: var(--gold);
+      background: rgba(201, 122, 31, 0.07);
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+    .title {
+      margin: 18px 0 8px;
+      font-family: "Songti SC", "Noto Serif SC", serif;
+      font-size: 34px;
+      font-weight: 600;
+    }
+    .subtitle {
+      color: var(--soft);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .section {
+      margin: 28px 0 14px;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 6px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .wide-card {
+      margin-bottom: 12px;
+    }
+    .card {
+      border: 1px solid rgba(90, 71, 53, 0.88);
+      border-radius: 18px;
+      background: var(--panel);
+      padding: 18px;
+    }
+    .tap {
+      cursor: pointer;
+      transition: border-color .2s, transform .2s, background .2s;
+    }
+    .tap:hover {
+      border-color: rgba(233, 184, 112, 0.48);
+      background: rgba(61, 47, 35, 0.74);
+      transform: translateY(-1px);
+    }
+    .icon {
+      color: var(--gold);
+      font-size: 30px;
+      line-height: 1;
+    }
+    .card-title {
+      margin-top: 12px;
+      font-family: "Songti SC", "Noto Serif SC", serif;
+      font-size: 19px;
+    }
+    .en {
+      margin: 4px 0 10px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .body {
+      color: var(--soft);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .gold { color: var(--gold); }
+    .pill {
+      display: inline-flex;
+      margin: 6px 6px 0 0;
+      padding: 4px 9px;
+      border: 1px solid rgba(201, 122, 31, 0.26);
+      border-radius: 999px;
+      color: var(--gold);
+      background: rgba(201, 122, 31, 0.08);
+      font-size: 12px;
+    }
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin: 22px 0 16px;
+    }
+    .tab {
+      flex: 1;
+      padding: 12px 8px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      color: var(--muted);
+      background: transparent;
+      text-align: center;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .tab.active {
+      border-color: var(--gold-2);
+      color: var(--gold);
+      background: rgba(201, 122, 31, 0.1);
+    }
+    input, textarea, select {
+      width: 100%;
+      min-height: 44px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      outline: none;
+      color: var(--text);
+      background: #0f0b08;
+      font: inherit;
+    }
+    textarea {
+      min-height: 92px;
+      resize: vertical;
+    }
+    label {
+      display: block;
+      margin: 14px 0 7px;
+      color: var(--soft);
+      font-size: 12px;
+    }
+    button.primary {
+      width: 100%;
+      height: 48px;
+      margin-top: 16px;
+      border: 0;
+      border-radius: 14px;
+      color: #fff;
+      background: var(--gold-2);
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.secondary {
+      width: 100%;
+      height: 42px;
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      color: var(--gold);
+      background: transparent;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 16px;
+      border-color: rgba(233, 184, 112, 0.44);
+      background: rgba(61, 47, 35, 0.64);
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin: 14px 0;
+    }
+    .pillar {
+      padding: 12px 4px;
+      border-radius: 13px;
+      background: #0f0b08;
+      text-align: center;
+    }
+    .pillar strong {
+      display: block;
+      margin: 4px 0;
+      font-family: "Songti SC", serif;
+      font-size: 23px;
+      font-weight: 600;
+    }
+    .tarot-list {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 4px 0 12px;
+    }
+    .tarot-card {
+      min-width: 112px;
+      height: 166px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(233, 184, 112, 0.36);
+      border-radius: 15px;
+      background: linear-gradient(160deg, #1f1711, #0f0b08);
+      text-align: center;
+    }
+    .zodiac-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 9px;
+      margin-top: 18px;
+    }
+    .zodiac {
+      padding: 12px 4px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      color: var(--soft);
+      text-align: center;
+      cursor: pointer;
+    }
+    .zodiac.active {
+      border-color: var(--gold-2);
+      color: var(--gold);
+    }
+    .bar {
+      height: 7px;
+      margin: 8px 0;
+      border-radius: 999px;
+      background: #3d2f23;
+      overflow: hidden;
+    }
+    .fill {
+      height: 100%;
+      background: var(--gold-2);
+    }
+    .tabbar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 70px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      border-top: 1px solid rgba(90, 71, 53, 0.72);
+      background: rgba(20, 15, 11, 0.97);
+    }
+    .tabbar button {
+      border: 0;
+      color: var(--muted);
+      background: transparent;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .tabbar .active {
+      color: var(--gold);
+    }
+    .tabbar span {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 20px;
+    }
+    .empty {
+      padding: 24px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+    .bracelet {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 7px;
+      margin: 14px 0 18px;
+    }
+    .bracelet.left {
+      justify-content: flex-start;
+    }
+    .bead {
+      width: 22px;
+      height: 22px;
+      border: 1px solid rgba(249, 236, 216, 0.24);
+      border-radius: 50%;
+      box-shadow: inset 0 4px 9px rgba(255,255,255,0.22), 0 4px 8px rgba(0,0,0,0.28);
+    }
+    .price {
+      color: var(--gold);
+      font-family: "Songti SC", serif;
+      font-size: 26px;
+    }
+    @media (max-width: 860px) {
+      .stage {
+        display: flex;
+        padding: 14px;
+      }
+      .intro { display: none; }
+      .phone {
+        width: 100%;
+        height: calc(100vh - 28px);
+        min-height: 640px;
+        border-radius: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="stage">
+    <section class="intro">
+      <div class="badge">小程序预览</div>
+      <h1>命运罗盘</h1>
+      <p>这是给浏览器调试用的 H5 预览前端，复刻微信小程序的主要页面、移动端交互和后端接口。打开右侧手机画布即可体验八字、塔罗、星座和 MBTI。</p>
+      <p class="small">真实小程序源码仍在 <code>miniprogram/</code>，此页面用于快速访问和验收。</p>
+    </section>
+    <section class="phone">
+      <div class="screen">
+        <div class="nav" id="navTitle">命运罗盘</div>
+        <div class="content" id="app"></div>
+        <nav class="tabbar">
+          <button data-page="home" class="active"><span>◎</span>罗盘</button>
+          <button data-page="tarot"><span>▣</span>塔罗</button>
+          <button data-page="bazi"><span>◇</span>八字</button>
+          <button data-page="shop"><span>◍</span>灵饰</button>
+          <button data-page="profile"><span>☾</span>我的</button>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const app = document.querySelector("#app");
+    const navTitle = document.querySelector("#navTitle");
+    const tabbar = document.querySelector(".tabbar");
+    const state = { page: "home", horoscope: null, mbtiQuestions: [], mbtiIndex: 0, mbtiAnswers: [] };
+    const navNames = { home: "命运罗盘", tarot: "塔罗占卜", bazi: "易经八字", horoscope: "星座运势", mbti: "MBTI人格", magic: "魔法秘术", shop: "命理灵饰", profile: "我的罗盘" };
+
+    const api = (url, data) => fetch(url, data ? {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    } : undefined).then((res) => res.json());
+
+    const escapeHtml = (text = "") => String(text).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
+
+    function setPage(page, params = {}) {
+      state.page = page;
+      state.params = params;
+      navTitle.textContent = navNames[page] || "命运罗盘";
+      document.querySelectorAll(".tabbar button").forEach((btn) => btn.classList.toggle("active", btn.dataset.page === page));
+      render();
+    }
+
+    function shell(title, subtitle, inner) {
+      return `<div class="title">${title}</div><div class="subtitle">${subtitle}</div>${inner}`;
+    }
+
+    function renderHome() {
+      app.innerHTML = `
+        <div style="text-align:center;padding-top:16px">
+          <div class="eyebrow">东方智慧 · 西方玄学</div>
+          <div class="title">命运罗盘</div>
+          <div class="subtitle">融汇千年东方命理与西方占星塔罗，为你揭示命运的面纱</div>
+        </div>
+        <div class="section">占卜命理</div>
+        <div class="grid">
+          ${[
+            ["bazi", "◎", "易经八字", "Bazi & I Ching", "生辰四柱、五行格局、合婚关系"],
+            ["horoscope", "✦", "星座运势", "Horoscope", "十二星座、今日能量、星座配对"],
+            ["tarot", "▣", "塔罗占卜", "Tarot Reading", "抽取命运之牌，洞察当下问题"],
+            ["mbti", "◇", "MBTI人格", "Myers-Briggs", "十六型人格测试与匹配分析"]
+          ].map(([page, icon, title, en, desc]) => `
+            <div class="card tap" data-go="${page}">
+              <div class="icon">${icon}</div><div class="card-title">${title}</div><div class="en">${en}</div><div class="body">${desc}</div>
+            </div>`).join("")}
+        </div>
+        <div class="section">魔法秘术</div>
+        <div class="card tap" data-go="magic" data-type="white"><div class="card-title">白魔法 <span class="pill">Light</span></div><div class="en">White Magic</div><div class="body">净化守护、吸引显化、疗愈能量、月相仪式</div></div>
+        <div class="card tap" data-go="magic" data-type="black"><div class="card-title">黑魔法 <span class="pill">Shadow</span></div><div class="en">Black Magic</div><div class="body">断舍离、影子修行、逆转净化、边界守护</div></div>
+        <div class="section">命理灵饰</div>
+        <div class="card tap wide-card" data-go="shop"><div class="card-title">寺庙祈愿灵饰 <span class="pill">成品售卖</span></div><div class="en">Temple Blessing</div><div class="body">雍和宫香灰/瓷珠、灵隐寺十八籽/有钱花、红螺寺观音类、五台山文殊类。</div></div>
+        <div class="card tap wide-card" data-go="shop"><div class="card-title">自选珠子定制 <span class="pill">自由组合</span></div><div class="en">Custom Beads</div><div class="body">按所求选择主珠、配珠、吊坠和颗数，设置手围后自动报价。</div></div>
+        <div class="empty">本程序仅供娱乐参考，请理性看待命运解读</div>`;
+    }
+
+    function renderTarot() {
+      app.innerHTML = shell("塔罗占卜", "抽取命运之牌，洞察未来趋势与感情指引", `
+        <div class="tabs" id="spreadTabs">
+          <button class="tab active" data-spread="three">三张牌<br><span class="small">过去·现在·未来</span></button>
+          <button class="tab" data-spread="single">单张牌<br><span class="small">快速指引</span></button>
+          <button class="tab" data-spread="love">感情塔罗<br><span class="small">爱情专属</span></button>
+        </div>
+        <div class="card">
+          <textarea id="tarotQuestion" placeholder="可输入你想询问的问题，也可以留空"></textarea>
+          <button class="primary" id="drawTarot">开始抽牌</button>
+        </div>
+        <div id="tarotResult"></div>`);
+    }
+
+    function renderBazi() {
+      app.innerHTML = shell("易经八字", "输入生辰，推演四柱命理与八字合婚", `
+        <div class="tabs">
+          <button class="tab active" data-bazi-tab="personal">个人命理</button>
+          <button class="tab" data-bazi-tab="match">八字合婚</button>
+        </div>
+        <div id="baziPanel"></div>
+        <div id="baziResult"></div>`);
+      renderBaziPanel("personal");
+    }
+
+    function renderBaziPanel(type) {
+      const panel = document.querySelector("#baziPanel");
+      if (type === "personal") {
+        panel.innerHTML = `<div class="card">
+          <label>出生日期</label><input id="birthDate" type="date" value="1994-06-12">
+          <label>出生时间</label><input id="birthTime" type="time" value="12:00">
+          <label>性别</label><select id="gender"><option value="0">男</option><option value="1">女</option></select>
+          <button class="primary" id="calcBazi">推演命盘</button>
+        </div>`;
+      } else {
+        panel.innerHTML = `<div class="card">
+          <label>甲方出生日期</label><input id="p1Date" type="date" value="1994-06-12">
+          <label>甲方出生时间</label><input id="p1Time" type="time" value="12:00">
+          <label>乙方出生日期</label><input id="p2Date" type="date" value="1996-09-03">
+          <label>乙方出生时间</label><input id="p2Time" type="time" value="08:00">
+          <button class="primary" id="calcMatch">合婚分析</button>
+        </div>`;
+      }
+    }
+
+    function renderTarotChat() {
+      const chat = document.querySelector("#tarotChat");
+      if (!chat || !state.tarotSession) return;
+      chat.innerHTML = state.tarotSession.chat.map((msg) => `
+        <div style="display:flex;justify-content:${msg.role === "user" ? "flex-end" : "flex-start"};margin:12px 0">
+          <div style="max-width:82%;padding:12px 14px;border:1px solid ${msg.role === "user" ? "rgba(201,122,31,.5)" : "rgba(90,71,53,.85)"};border-radius:14px;background:${msg.role === "user" ? "rgba(201,122,31,.12)" : "rgba(15,11,8,.72)"}">
+            <div class="body">${escapeHtml(msg.content)}</div>
+            ${msg.suggestions ? `<div style="margin-top:8px">${msg.suggestions.map((s) => `<button class="tab" style="display:inline-flex;width:auto;margin:4px;padding:8px 10px" data-tarot-suggestion="${escapeHtml(s)}">${escapeHtml(s)}</button>`).join("")}</div>` : ""}
+          </div>
+        </div>
+      `).join("");
+    }
+
+    async function renderHoroscope() {
+      if (!state.horoscope) state.horoscope = await api("/api/horoscope/signs");
+      app.innerHTML = shell("星座运势", "十二星座今日能量与幸运指南", `
+        <div class="zodiac-grid">${state.horoscope.signs.map((s, i) => `<button class="zodiac ${i === 0 ? "active" : ""}" data-sign="${s.name}"><div class="icon">${s.icon}</div><div>${s.name}</div><div class="small">${s.date}</div></button>`).join("")}</div>
+        <div id="horoResult"></div>`);
+      loadHoroscope(state.horoscope.signs[0].name);
+    }
+
+    async function loadHoroscope(sign) {
+      const data = await api(`/api/horoscope/daily?sign=${encodeURIComponent(sign)}`);
+      document.querySelector("#horoResult").innerHTML = `<div class="card result">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div><div class="card-title">${data.name}</div><div class="small">${data.en} · ${data.element}象星座</div></div><div class="icon" style="font-size:48px">${data.icon}</div></div>
+        ${data.fortunes.map((f) => `<div style="margin-top:18px"><div style="display:flex;justify-content:space-between"><span>${f.label}</span><span class="gold">${f.value}%</span></div><div class="bar"><div class="fill" style="width:${f.value}%"></div></div><div class="body">${f.desc}</div></div>`).join("")}
+        <div class="section">今日幸运指南</div><div class="grid">${data.lucky.map((x) => `<div class="card" style="padding:12px;text-align:center"><div class="small">${x.label}</div><div class="gold">${x.value}</div></div>`).join("")}</div>
+        ${data.remedy ? `<div class="section">转化珠串建议</div><div class="body">${data.remedy.summary}</div><div>${data.remedy.beads.map((b) => `<span class="pill">${b.name}</span>`).join("")}</div><button class="secondary" data-go="shop">进入灵饰定制</button>` : ""}
+      </div>`;
+    }
+
+    async function renderMbti() {
+      const res = await api("/api/mbti/questions");
+      state.mbtiQuestions = res.questions;
+      state.mbtiIndex = 0;
+      state.mbtiAnswers = [];
+      drawMbtiQuestion();
+    }
+
+    function drawMbtiQuestion(result) {
+      if (result) {
+        app.innerHTML = shell("MBTI人格", "十六型人格测试，探索真我性格与匹配关系", `<div class="card result" style="text-align:center"><div style="font-family:Songti SC,serif;font-size:56px;color:var(--gold)">${result.code}</div><div class="card-title">${result.nickname} · ${result.category}</div><p class="body">${result.desc}</p><div>${result.strengths.map((x) => `<span class="pill">${x}</span>`).join("")}</div><p class="body">${result.advice}</p><button class="secondary" data-go="mbti">重新测试</button></div>`);
+        return;
+      }
+      const q = state.mbtiQuestions[state.mbtiIndex];
+      app.innerHTML = shell("MBTI人格", "十六型人格测试，探索真我性格与匹配关系", `<div class="card result"><div class="small">第 ${state.mbtiIndex + 1} / ${state.mbtiQuestions.length} 题</div><div class="card-title" style="line-height:1.6">${q.text}</div><button class="primary" data-mbti="true">${q.positive}</button><button class="secondary" data-mbti="false">${q.negative}</button></div>`);
+    }
+
+    async function renderMagic() {
+      const type = state.params.type || "white";
+      const data = await api(`/api/magic?type=${type}`);
+      app.innerHTML = shell(type === "white" ? "白魔法" : "黑魔法", type === "white" ? "净化守护、吸引显化、疗愈能量、月相仪式" : "边界、断舍离、影子修行与能量净化", `
+        <div class="tabs">${data.tabs.map((t, i) => `<button class="tab ${i === 0 ? "active" : ""}" data-magic="${t.key}">${t.title}</button>`).join("")}</div>
+        <div id="magicList"></div>`);
+      drawMagicList(data.tabs[0].rituals);
+      state.magicTabs = data.tabs;
+    }
+
+    function drawMagicList(rituals) {
+      document.querySelector("#magicList").innerHTML = rituals.map((r) => `<div class="card"><div class="card-title">${r.name} <span class="pill">${r.level}</span></div><div class="small">${r.duration} · ${r.timing}</div><div class="section">准备材料</div>${r.materials.map((m) => `<span class="pill">${m}</span>`).join("")}<div class="section">仪式步骤</div>${r.steps.map((s, i) => `<p class="body"><span class="gold">${i + 1}.</span> ${s}</p>`).join("")}<p class="body">${r.tips}</p></div>`).join("");
+    }
+
+    async function renderShop() {
+      const data = await api("/api/shop/products");
+      state.shopProducts = data.products;
+      state.temples = data.temples;
+      state.beads = data.beads;
+      state.prayerTypes = data.prayerTypes;
+      state.shopCounts = {};
+      state.shopTemple = data.temples[0].id;
+      state.shopPrayer = "全部";
+      state.shopConsecrated = false;
+      app.innerHTML = shell("命理灵饰", "按所求选择寺庙主题商品；算完命盘后，也可按转化建议来自由组合珠串", `
+        <div class="tabs">
+          <button class="tab active" data-shop-tab="goods">按所求选款</button>
+          <button class="tab" data-shop-tab="custom">自由组合定制</button>
+        </div>
+        <div class="card">
+          <div class="section">先选寺庙</div>
+          <div id="templeOptions">${data.temples.map((t, i) => `<button class="tab ${i === 0 ? "active" : ""}" data-temple="${t.id}">${t.name}<br><span class="small">开光 +¥${t.consecrationPrice}</span></button>`).join("")}</div>
+          <div class="section">再选所求</div>
+          <div>${data.prayerTypes.map((p, i) => `<button class="tab ${i === 0 ? "active" : ""}" data-prayer="${p}" style="display:inline-flex;width:auto;margin:4px">${p}</button>`).join("")}</div>
+          <label style="display:flex;align-items:center;gap:10px;margin-top:14px"><input id="shopConsecrated" type="checkbox" style="width:auto;min-height:auto"> 是否开光</label>
+          <div class="body">关闭则按未开光净化包装发货。</div>
+        </div>
+        <div id="shopPanel"></div>
+        <div id="shopResult"></div>`);
+      drawShopPanel("goods");
+    }
+
+    function drawShopPanel(tab) {
+      const panel = document.querySelector("#shopPanel");
+      if (tab === "custom") {
+        panel.innerHTML = `<div class="card">
+          <label>手围</label><select id="shopWrist">${["14cm","15cm","16cm","17cm","18cm"].map((s) => `<option ${s === "16cm" ? "selected" : ""}>${s}</option>`).join("")}</select>
+          <div class="section">选择珠子 / 配件与颗数</div>
+          ${state.beads.map((b) => `<div style="display:flex;align-items:center;gap:10px;margin:14px 0"><span class="bead" style="background:${b.color};flex:0 0 22px"></span><div style="flex:1"><div class="gold">${b.direction} · ${b.name} · ${b.size}</div><div class="body">${b.element}气 · ${b.effect} · ¥${b.unitPrice}/颗</div></div><button class="secondary" style="width:36px" data-count="${b.id}" data-delta="-1">-</button><span id="count-${b.id}">${state.shopCounts[b.id] || 0}</span><button class="secondary" style="width:36px" data-count="${b.id}" data-delta="1">+</button></div>`).join("")}
+          <button class="primary" id="shopPrice">计算报价</button>
+        </div>`;
+        return;
+      }
+      const products = state.shopProducts.filter((p) => p.templeId === state.shopTemple && (state.shopPrayer === "全部" || p.prayerTypes.includes(state.shopPrayer)));
+      if (!products.length) {
+        panel.innerHTML = `<div class="card"><div class="body">当前寺庙和所求暂无对应商品，可切换所求类型或进入自由组合定制。</div></div>`;
+        return;
+      }
+      panel.innerHTML = products.map((p) => `<div class="card wide-card">
+        <div style="display:flex;justify-content:space-between;gap:14px"><div><div class="card-title">${p.name}</div><div class="body">${p.subtitle}</div><div class="body">形态：${p.form}</div></div><div class="price">¥${p.basePrice}</div></div>
+        ${p.supplyPrice ? `<span class="pill">供应参考 ¥${p.supplyPrice} 起</span>` : ""}
+        <div class="bracelet left">${p.palette.map((c) => `<span class="bead" style="background:${c}"></span>`).join("")}</div>
+        <div class="section">材质结构</div>
+        <div>${(p.materials || []).map((m) => `<span class="pill">${m}</span>`).join("")}</div>
+        <div class="section">产品卖点</div>
+        ${(p.sellingPoints || []).map((s) => `<div class="body">· ${s}</div>`).join("")}
+        <div class="section">可选款式</div>
+        ${(p.skuOptions || []).map((s) => `<div style="display:flex;justify-content:space-between;margin:6px 0"><span>${s.name}</span><span class="gold">¥${s.price}</span></div>`).join("")}
+        <div>${p.tags.map((t) => `<span class="pill">${t}</span>`).join("")}</div>
+        <button class="secondary" data-order="${p.id}" data-temple-id="${p.templeId}">生成发货订单</button>
+      </div>`).join("");
+    }
+
+    function drawShopQuote(data) {
+      document.querySelector("#shopResult").innerHTML = `<div class="card result">
+        <div class="section">报价明细</div>
+        ${data.beadLines.map((b) => `<div style="display:flex;justify-content:space-between;margin:8px 0"><span>${b.name} x ${b.count}</span><span class="gold">¥${b.subtotal}</span></div>`).join("")}
+        <div style="display:flex;justify-content:space-between;margin:8px 0"><span>穿串服务</span><span class="gold">¥${data.fees.serviceFee}</span></div>
+        <div style="display:flex;justify-content:space-between;margin:8px 0"><span>手围工费</span><span class="gold">¥${data.fees.stringFee}</span></div>
+        <div style="display:flex;justify-content:space-between;margin:8px 0"><span>开光 / 加持服务</span><span class="gold">¥${data.fees.consecrationFee}</span></div>
+        <div class="price">合计 ¥${data.total}</div>
+        <div class="section">收货信息</div>
+        <input id="shipReceiver" placeholder="收件人"><input id="shipPhone" placeholder="手机号"><input id="shipAddress" placeholder="收货地址">
+        <button class="primary" id="orderCustom">生成发货订单</button>
+      </div>`;
+    }
+
+    function renderProfile() {
+      app.innerHTML = shell("我的罗盘", "保存测试记录、查看会员权益与后续服务入口", `
+        <div class="card result"><div style="display:flex;justify-content:space-between;align-items:center"><div><div class="card-title">未登录用户</div><div class="small">登录后可同步命盘、牌阵和人格报告</div></div><div class="icon">◎</div></div><button class="primary">微信一键登录</button></div>
+        <div class="section">最近记录</div>
+        <div class="card"><div class="gold">今日塔罗</div><div class="body">三张牌阵 · 建议保持节奏感</div></div>
+        <div class="card"><div class="gold">八字命盘</div><div class="body">四柱已生成，可继续做合婚分析</div></div>
+        <div class="section">服务规划</div>
+        <div class="card"><span class="pill">年度运势报告</span><span class="pill">情感合盘</span><span class="pill">AI深度解读</span><span class="pill">订单与付费</span></div>`);
+    }
+
+    async function render() {
+      if (state.page === "home") renderHome();
+      if (state.page === "tarot") renderTarot();
+      if (state.page === "bazi") renderBazi();
+      if (state.page === "horoscope") await renderHoroscope();
+      if (state.page === "mbti") await renderMbti();
+      if (state.page === "magic") await renderMagic();
+      if (state.page === "shop") await renderShop();
+      if (state.page === "profile") renderProfile();
+      app.scrollTop = 0;
+    }
+
+    tabbar.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-page]");
+      if (button) setPage(button.dataset.page);
+    });
+
+    document.addEventListener("click", async (event) => {
+      const go = event.target.closest("[data-go]");
+      if (go) return setPage(go.dataset.go, { type: go.dataset.type });
+      const spread = event.target.closest("[data-spread]");
+      if (spread) {
+        document.querySelectorAll("[data-spread]").forEach((x) => x.classList.remove("active"));
+        spread.classList.add("active");
+      }
+      if (event.target.id === "drawTarot") {
+        const active = document.querySelector("[data-spread].active").dataset.spread;
+        event.target.textContent = "洗牌中...";
+        const data = await api("/api/tarot/draw", { spread: active, question: document.querySelector("#tarotQuestion").value });
+        state.tarotSession = { spread: active, question: document.querySelector("#tarotQuestion").value, result: data, chat: [] };
+        document.querySelector("#tarotResult").innerHTML = `<div class="card result"><span class="pill">${data.ai?.used ? "AI 深度解读" : "本地模板解读"}</span><div class="gold body">${data.overview}</div><div class="tarot-list">${data.cards.map((c) => `<div><div class="tarot-card"><div class="small">${c.en}</div><div class="card-title">${c.name}</div></div><div class="gold" style="text-align:center;font-size:12px">${c.position}</div></div>`).join("")}</div>${data.cards.map((c) => `<div style="margin-top:18px"><div class="gold">${c.name} · ${c.position}</div>${c.keywords.map((k) => `<span class="pill">${k}</span>`).join("")}<div class="body">${c.reading}</div></div>`).join("")}<div class="section">继续追问</div><div id="tarotChat"></div><textarea id="tarotFollowQuestion" placeholder="基于这次牌面继续追问，例如：我下一步该怎么做？"></textarea><button class="secondary" id="askTarotFollow">发送追问</button></div>`;
+        renderTarotChat();
+        event.target.textContent = "重新抽牌";
+      }
+      if (event.target.id === "askTarotFollow") {
+        const input = document.querySelector("#tarotFollowQuestion");
+        const message = input.value.trim();
+        if (!message || !state.tarotSession) return;
+        state.tarotSession.chat.push({ role: "user", content: message });
+        input.value = "";
+        event.target.textContent = "解读中...";
+        renderTarotChat();
+        const answer = await api("/api/tarot/chat", {
+          spread: state.tarotSession.spread,
+          question: state.tarotSession.question,
+          message,
+          result: state.tarotSession.result,
+          history: state.tarotSession.chat
+        });
+        state.tarotSession.chat.push({ role: "assistant", content: answer.reply, suggestions: answer.suggestions, ai: answer.ai });
+        renderTarotChat();
+        event.target.textContent = "发送追问";
+      }
+      const tarotSuggestion = event.target.closest("[data-tarot-suggestion]");
+      if (tarotSuggestion) {
+        const input = document.querySelector("#tarotFollowQuestion");
+        if (input) input.value = tarotSuggestion.dataset.tarotSuggestion;
+      }
+      const baziTab = event.target.closest("[data-bazi-tab]");
+      if (baziTab) {
+        document.querySelectorAll("[data-bazi-tab]").forEach((x) => x.classList.remove("active"));
+        baziTab.classList.add("active");
+        document.querySelector("#baziResult").innerHTML = "";
+        renderBaziPanel(baziTab.dataset.baziTab);
+      }
+      if (event.target.id === "calcBazi") {
+        const data = await api("/api/bazi/personal", { birthDate: birthDate.value, birthTime: birthTime.value, gender: gender.value });
+        document.querySelector("#baziResult").innerHTML = `<div class="card result"><span class="pill">${data.ai?.used ? "AI 深度解读" : "本地模板解读"}</span><div class="section">四柱命盘</div>${data.overview ? `<div class="gold body">${data.overview}</div>` : ""}<div class="pillars">${data.pillars.map((p) => `<div class="pillar"><div class="small">${p.label}</div><strong>${p.value}</strong><div class="gold small">${p.element}</div></div>`).join("")}</div>${data.sections.map((s) => `<div style="margin-top:18px"><div class="gold">${s.title}</div><div class="body">${s.content}</div></div>`).join("")}</div>${data.remedy ? `<div class="card result"><div class="section">破解 / 转化建议</div><div class="gold">${data.remedy.title}</div><div class="body">${data.remedy.summary}</div><div>${data.remedy.beads.map((b) => `<span class="pill">${b.name}</span>`).join("")}</div><button class="secondary" data-go="shop">进入灵饰定制</button></div>` : ""}`;
+      }
+      if (event.target.id === "calcMatch") {
+        const data = await api("/api/bazi/match", { p1Date: p1Date.value, p1Time: p1Time.value, p2Date: p2Date.value, p2Time: p2Time.value });
+        document.querySelector("#baziResult").innerHTML = `<div class="card result" style="text-align:center"><span class="pill">${data.ai?.used ? "AI 深度解读" : "本地模板解读"}</span><div style="font-family:Songti SC,serif;font-size:56px;color:var(--gold)">${data.score}</div><div class="card-title">${data.level}</div><p class="body">${data.summary}</p>${data.details.map((d) => `<div style="text-align:left;margin-top:16px"><span class="pill">${d.title}</span><div class="body">${d.content}</div></div>`).join("")}</div>`;
+      }
+      const zodiac = event.target.closest("[data-sign]");
+      if (zodiac) {
+        document.querySelectorAll("[data-sign]").forEach((x) => x.classList.remove("active"));
+        zodiac.classList.add("active");
+        loadHoroscope(zodiac.dataset.sign);
+      }
+      const mbti = event.target.closest("[data-mbti]");
+      if (mbti) {
+        state.mbtiAnswers.push(mbti.dataset.mbti === "true");
+        if (state.mbtiAnswers.length === state.mbtiQuestions.length) {
+          const result = await api("/api/mbti/result", { answers: state.mbtiAnswers });
+          drawMbtiQuestion(result);
+        } else {
+          state.mbtiIndex += 1;
+          drawMbtiQuestion();
+        }
+      }
+      const magic = event.target.closest("[data-magic]");
+      if (magic && state.magicTabs) {
+        document.querySelectorAll("[data-magic]").forEach((x) => x.classList.remove("active"));
+        magic.classList.add("active");
+        drawMagicList(state.magicTabs.find((x) => x.key === magic.dataset.magic).rituals);
+      }
+      const shopTab = event.target.closest("[data-shop-tab]");
+      if (shopTab) {
+        document.querySelectorAll("[data-shop-tab]").forEach((x) => x.classList.remove("active"));
+        shopTab.classList.add("active");
+        document.querySelector("#shopResult").innerHTML = "";
+        drawShopPanel(shopTab.dataset.shopTab);
+      }
+      const temple = event.target.closest("[data-temple]");
+      if (temple) {
+        state.shopTemple = temple.dataset.temple;
+        document.querySelectorAll("[data-temple]").forEach((x) => x.classList.remove("active"));
+        temple.classList.add("active");
+        if (state.page === "shop") drawShopPanel(document.querySelector("[data-shop-tab].active")?.dataset.shopTab || "goods");
+      }
+      const prayer = event.target.closest("[data-prayer]");
+      if (prayer) {
+        state.shopPrayer = prayer.dataset.prayer;
+        document.querySelectorAll("[data-prayer]").forEach((x) => x.classList.remove("active"));
+        prayer.classList.add("active");
+        if (state.page === "shop") drawShopPanel(document.querySelector("[data-shop-tab].active")?.dataset.shopTab || "goods");
+      }
+      if (event.target.id === "shopConsecrated") {
+        state.shopConsecrated = event.target.checked;
+      }
+      const countButton = event.target.closest("[data-count]");
+      if (countButton) {
+        const id = countButton.dataset.count;
+        const delta = Number(countButton.dataset.delta);
+        state.shopCounts[id] = Math.max(0, Math.min(30, (state.shopCounts[id] || 0) + delta));
+        document.querySelector(`#count-${id}`).textContent = state.shopCounts[id];
+      }
+      if (event.target.id === "shopPrice") {
+        const selectedBeads = Object.entries(state.shopCounts).map(([id, count]) => ({ id, count })).filter((x) => x.count > 0);
+        if (!selectedBeads.length) return;
+        event.target.textContent = "计算中...";
+        const data = await api("/api/shop/price", {
+          selectedBeads,
+          wrist: shopWrist.value,
+          templeId: state.shopTemple,
+          consecrated: state.shopConsecrated
+        });
+        state.lastQuotePayload = { selectedBeads, wrist: shopWrist.value, templeId: state.shopTemple, consecrated: state.shopConsecrated };
+        drawShopQuote(data);
+        event.target.textContent = "重新计算";
+      }
+      const order = event.target.closest("[data-order]");
+      if (order) {
+        const data = await api("/api/shop/order-draft", { productId: order.dataset.order, templeId: order.dataset.templeId, consecrated: state.shopConsecrated, source: "preview" });
+        const target = document.querySelector("#shopResult") || app;
+        target.insertAdjacentHTML("beforeend", `<div class="card result"><div class="gold">发货订单已生成</div><div class="body">编号：${data.orderNo}</div><div class="body">状态：${data.status}</div><div class="price">应付 ¥${data.payable}</div></div>`);
+      }
+      if (event.target.id === "orderCustom" && state.lastQuotePayload) {
+        const data = await api("/api/shop/order-draft", {
+          custom: state.lastQuotePayload,
+          shipping: { receiver: shipReceiver.value, phone: shipPhone.value, address: shipAddress.value },
+          source: "preview"
+        });
+        document.querySelector("#shopResult").insertAdjacentHTML("beforeend", `<div class="card result"><div class="gold">发货订单已生成</div><div class="body">编号：${data.orderNo}</div><div class="body">状态：${data.status}</div><div class="price">应付 ¥${data.payable}</div></div>`);
+      }
+    });
+
+    renderHome();
+  </script>
+</body>
+</html>

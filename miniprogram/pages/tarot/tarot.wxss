@@ -1,0 +1,99 @@
+.spread-row {
+  display: flex;
+  gap: 14rpx;
+  margin: 34rpx 0;
+}
+.spread {
+  flex: 1;
+  padding: 18rpx 8rpx;
+  border: 1rpx solid #5a4735;
+  border-radius: 16rpx;
+  color: #d4cbb8;
+  text-align: center;
+  font-size: 24rpx;
+}
+.spread.active {
+  border-color: #c97a1f;
+  color: #e9b870;
+  background: rgba(201, 122, 31, 0.1);
+}
+.question {
+  box-sizing: border-box;
+  width: 100%;
+  height: 150rpx;
+  margin-bottom: 22rpx;
+  padding: 22rpx;
+  border: 1rpx solid #5a4735;
+  border-radius: 16rpx;
+  background: #0f0b08;
+  color: #f9ecd8;
+  font-size: 26rpx;
+}
+.overview {
+  margin-bottom: 24rpx;
+  line-height: 1.65;
+}
+.tarot-grid {
+  display: flex;
+  gap: 18rpx;
+  overflow-x: auto;
+  padding-bottom: 12rpx;
+}
+.tarot-card {
+  width: 178rpx;
+  flex: 0 0 178rpx;
+  text-align: center;
+}
+.card-face {
+  height: 260rpx;
+  padding: 20rpx 12rpx;
+  border: 2rpx solid rgba(233, 184, 112, 0.35);
+  border-radius: 20rpx;
+  background: linear-gradient(160deg, #1f1711, #0f0b08);
+}
+.card-index {
+  color: #745e43;
+  font-size: 24rpx;
+}
+.card-name {
+  margin-top: 56rpx;
+  color: #f9ecd8;
+  font-family: "Songti SC", serif;
+  font-size: 34rpx;
+}
+.reading {
+  margin-top: 30rpx;
+}
+.chat-box {
+  margin-top: 38rpx;
+  padding-top: 26rpx;
+  border-top: 1rpx solid rgba(90, 71, 53, 0.65);
+}
+.chat-row {
+  display: flex;
+  margin: 18rpx 0;
+}
+.chat-row.user {
+  justify-content: flex-end;
+}
+.chat-row.assistant {
+  justify-content: flex-start;
+}
+.chat-bubble {
+  max-width: 82%;
+  padding: 18rpx 20rpx;
+  border: 1rpx solid rgba(90, 71, 53, 0.8);
+  border-radius: 18rpx;
+  background: rgba(15, 11, 8, 0.74);
+}
+.chat-row.user .chat-bubble {
+  border-color: rgba(201, 122, 31, 0.5);
+  background: rgba(201, 122, 31, 0.12);
+}
+.suggestions {
+  margin-top: 12rpx;
+}
+.follow {
+  height: 120rpx;
+  margin-top: 24rpx;
+}

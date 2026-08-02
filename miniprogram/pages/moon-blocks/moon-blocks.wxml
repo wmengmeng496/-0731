@@ -1,0 +1,71 @@
+<view class="page">
+  <view class="hero">
+    <view class="eyebrow">潮汕问事</view>
+    <view class="title">掷圣杯</view>
+    <view class="subtitle">把想问的一件事写清楚，静心掷杯，看此刻的应答</view>
+  </view>
+
+  <view class="card">
+    <view class="label">所问之事</view>
+    <textarea
+      class="question-input"
+      value="{{question}}"
+      maxlength="80"
+      disabled="{{tossing}}"
+      placeholder="例如：这个月适不适合主动联系对方？"
+      bindinput="setQuestion"
+    />
+    <view class="hint">一次只问一件事，问题越具体，杯意越清晰。</view>
+    <button class="button" loading="{{tossing || reading}}" disabled="{{tossing || reading}}" bindtap="toss">
+      {{tossing ? "掷杯中..." : reading ? "解读中..." : "开始掷杯"}}
+    </button>
+  </view>
+
+  <view class="card stage-card">
+    <view class="stage">
+      <view class="cup-shadow {{tossing ? 'shadow-moving' : ''}}"></view>
+      <view wx:for="{{faces}}" wx:key="*this" class="cup-wrap">
+        <view class="moon-block {{item === '阳' ? 'yang' : 'yin'}} {{tossing ? 'tossing' : 'settle'}}">
+          <view class="ridge"></view>
+          <view class="shine"></view>
+          <text>{{item === '阳' ? '凸' : '平'}}</text>
+        </view>
+        <view class="face-label">{{item}}面</view>
+      </view>
+    </view>
+
+    <view wx:if="{{!result && !tossing}}" class="empty">写下问题后，圣杯会在这里落定。</view>
+    <view wx:if="{{tossing}}" class="empty">
+      <view class="result-name">杯在空中翻转</view>
+      <view>请在心里默念这件事，等它落地。</view>
+    </view>
+
+    <view wx:if="{{result && !tossing}}" class="result">
+      <view class="muted small result-label">结果</view>
+      <view class="result-name">{{result.name}}</view>
+      <view class="gold verdict">{{result.verdict}}</view>
+      <view class="tag-row">
+        <text wx:for="{{result.keywords}}" wx:key="*this" class="pill">{{item}}</text>
+        <text class="pill muted-pill">{{reading ? "AI 解读中" : result.ai.used ? "AI 解读" : "本地备用"}}</text>
+      </view>
+      <view wx:if="{{reading}}" class="loading-lines">
+        <view></view>
+        <view></view>
+        <view></view>
+      </view>
+      <block wx:else>
+        <view class="body">{{result.tone}}</view>
+        <view class="body muted-detail">{{result.detail}}</view>
+      </block>
+      <view class="advice">
+        <view class="gold small">下一步</view>
+        <view wx:if="{{reading}}" class="loading-lines small-lines">
+          <view></view>
+          <view></view>
+        </view>
+        <view wx:else class="body small">{{result.advice}}</view>
+      </view>
+      <button class="ghost-button" bindtap="reset">重新问事</button>
+    </view>
+  </view>
+</view>

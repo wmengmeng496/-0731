@@ -1,0 +1,51 @@
+.tabs {
+  display: flex;
+  gap: 18rpx;
+  margin: 34rpx 0;
+}
+.tab {
+  flex: 1;
+  padding: 22rpx 0;
+  border: 1rpx solid #5a4735;
+  border-radius: 16rpx;
+  color: #8f7554;
+  text-align: center;
+  font-size: 26rpx;
+}
+.tab.active {
+  border-color: #c97a1f;
+  color: #e9b870;
+  background: rgba(201, 122, 31, 0.1);
+}
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12rpx;
+  margin-bottom: 28rpx;
+}
+.pillar {
+  padding: 20rpx 6rpx;
+  border-radius: 18rpx;
+  background: #0f0b08;
+  text-align: center;
+}
+.pillar-text {
+  margin: 8rpx 0;
+  color: #f9ecd8;
+  font-family: "Songti SC", serif;
+  font-size: 38rpx;
+}
+.reading {
+  margin-top: 26rpx;
+}
+.score {
+  color: #e9b870;
+  font-family: "Songti SC", serif;
+  font-size: 88rpx;
+  text-align: center;
+}
+.match-level {
+  margin-bottom: 18rpx;
+  font-size: 34rpx;
+  text-align: center;
+}
