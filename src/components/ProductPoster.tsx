@@ -12,6 +12,25 @@ function getPosterCaption(product: SpiritualProduct) {
 }
 
 export function ProductPoster({ product }: { product: SpiritualProduct }) {
+  if (product.image) {
+    return (
+      <div
+        className="relative overflow-hidden rounded-[22px] border border-[#4b341f] bg-[#f3e1aa] text-[#2b1b0d]"
+        style={{
+          aspectRatio: "1 / 1.18",
+          background: "linear-gradient(180deg, #f6e4ab 0%, #f3db93 100%)",
+        }}
+      >
+        <img
+          src={product.image}
+          alt={product.name}
+          className="h-full w-full object-contain"
+          loading="lazy"
+        />
+      </div>
+    );
+  }
+
   const beads = Array.from({ length: 16 }, (_, index) => product.palette[index % product.palette.length]);
   const beadCount = Math.max(12, Math.min(16, product.palette.length * 4));
 

@@ -50,7 +50,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款粉瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/pink-porcelain-silver.png"
+    "image": "/images/1688-products/1688-粉瓷-古银.png"
   },
   {
     "id": "1688-灰瓷-古银",
@@ -100,7 +100,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款灰瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/gray-porcelain-silver.png"
+    "image": "/images/1688-products/1688-灰瓷-古银.png"
   },
   {
     "id": "1688-黑瓷-古银",
@@ -151,7 +151,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款黑瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/black-porcelain-silver.png"
+    "image": "/images/1688-products/1688-黑瓷-古银.png"
   },
   {
     "id": "1688-黑瓷-珠径12mm14颗",
@@ -201,7 +201,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款黑瓷（珠径12mm14颗）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/black-porcelain-12mm.png"
+    "image": "/images/1688-products/1688-黑瓷-珠径12mm14颗.png"
   },
   {
     "id": "1688-黑瓷-珠径14mm13颗",
@@ -251,7 +251,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款黑瓷（珠径14mm13颗）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/black-porcelain-14mm.png"
+    "image": "/images/1688-products/1688-黑瓷-珠径14mm13颗.png"
   },
   {
     "id": "1688-粉灰瓷-古银",
@@ -302,7 +302,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款粉灰瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/pink-gray-porcelain-silver.png"
+    "image": "/images/1688-products/1688-粉灰瓷-古银.png"
   },
   {
     "id": "1688-马卡龙5色-古银",
@@ -352,7 +352,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款马卡龙5色（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/macaron-porcelain-silver.png"
+    "image": "/images/1688-products/1688-马卡龙5色-古银.png"
   },
   {
     "id": "1688-乳白瓷-古银",
@@ -402,7 +402,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款乳白瓷（古银）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/ivory-porcelain-silver.png"
+    "image": "/images/1688-products/1688-乳白瓷-古银.png"
   },
   {
     "id": "1688-青花瓷-10mm珠径",
@@ -452,7 +452,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款青花瓷（10mm珠径）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/blue-white-porcelain-silver.png"
+    "image": "/images/1688-products/1688-青花瓷-10mm珠径.png"
   },
   {
     "id": "1688-白蓝粉-金色",
@@ -504,7 +504,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款白蓝粉（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/white-blue-pink-gold.png"
+    "image": "/images/1688-products/1688-白蓝粉-金色.png"
   },
   {
     "id": "1688-灰瓷-金色",
@@ -555,7 +555,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款灰瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/gray-porcelain-gold.png"
+    "image": "/images/1688-products/1688-灰瓷-金色.png"
   },
   {
     "id": "1688-墨绿瓷-金色",
@@ -606,7 +606,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款墨绿瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/emerald-porcelain-gold.png"
+    "image": "/images/1688-products/1688-墨绿瓷-金色.png"
   },
   {
     "id": "1688-粉白瓷-金色",
@@ -657,7 +657,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款粉白瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/pink-white-porcelain-gold.png"
+    "image": "/images/1688-products/1688-粉白瓷-金色.png"
   },
   {
     "id": "1688-黄色瓷-金色",
@@ -708,7 +708,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款黄色瓷（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/yellow-porcelain-gold.png"
+    "image": "/images/1688-products/1688-黄色瓷-金色.png"
   },
   {
     "id": "1688-白色珠-金色",
@@ -759,7 +759,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款白色珠（金色）手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/white-porcelain-gold.png"
+    "image": "/images/1688-products/1688-白色珠-金色.png"
   },
   {
     "id": "1688-粉色转经筒",
@@ -809,7 +809,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款粉色转经筒手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/pink-prayer-wheel.png"
+    "image": "/images/1688-products/1688-粉色转经筒.png"
   },
   {
     "id": "1688-灰色转经筒",
@@ -858,7 +858,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款灰色转经筒手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/gray-prayer-wheel.png"
+    "image": "/images/1688-products/1688-灰色转经筒.png"
   },
   {
     "id": "1688-珠光多色佛头款",
@@ -908,7 +908,7 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询寺庙同款珠光多色佛头款手串，想看实拍、手围和是否可做开光礼盒。",
     "price": 69,
     "originalPrice": 99,
-    "image": "/images/1688-products/multicolor-buddha.png"
+    "image": "/images/1688-products/1688-珠光多色佛头款.png"
   },
   {
     "id": "1688-red-agate-four-leaf-clover-bracelet",
@@ -961,6 +961,6 @@ export const imported1688Products: SpiritualProduct[] = [
     "consultPrompt": "我想咨询天然红玛瑙幸运四叶草手链，想看实拍、手围调节范围和礼盒包装。",
     "price": 49,
     "originalPrice": 69,
-    "image": "/images/1688-products/red-agate-four-leaf-clover-bracelet-preview.png"
+    "image": "/images/1688-products/red-agate-four-leaf-clover-preview.svg"
   }
 ];
