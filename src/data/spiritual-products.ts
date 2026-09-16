@@ -325,20 +325,23 @@ const baseSpiritualProducts: SpiritualProduct[] = [
   },
 ];
 
-export const spiritualProducts: SpiritualProduct[] = [
-  ...baseSpiritualProducts,
-  ...imported1688Products,
-];
+export const spiritualProducts: SpiritualProduct[] = imported1688Products;
 
-const easternFallback = ["yonghe-incense-peace", "lingyin-money-lotus", "wutai-wenshu-wisdom"];
-const westernFallback = ["amethyst-clarity", "rose-quartz-love", "cleansing-kit"];
+const recommendationIntent: Record<Parameters<typeof getSpiritualRecommendations>[0], string[]> = {
+  eastern: ["平安", "事业", "财运"],
+  western: ["颜值", "能量", "幸运"],
+  relationship: ["姻缘", "桃花", "感情"],
+  career: ["事业", "学业", "专注"],
+  protection: ["护身", "平安", "稳定"],
+  wealth: ["财运", "求财", "事业"],
+  clarity: ["清心", "智慧", "专注"],
+};
 
 export function getSpiritualRecommendations(kind: "eastern" | "western" | "relationship" | "career" | "protection" | "wealth" | "clarity") {
-  const byId = (ids: string[]) => ids.map((id) => spiritualProducts.find((item) => item.id === id)).filter(Boolean) as SpiritualProduct[];
-  if (kind === "relationship") return byId(["hongluo-guanyin-love", "rose-quartz-love", "cleansing-kit"]);
-  if (kind === "career") return byId(["wutai-wenshu-wisdom", "citrine-money", "lingyin-money-lotus"]);
-  if (kind === "protection") return byId(["yonghe-incense-peace", "black-obsidian-protection", "cleansing-kit"]);
-  if (kind === "wealth") return byId(["lingyin-money-lotus", "citrine-money", "yonghe-incense-peace"]);
-  if (kind === "clarity") return byId(["amethyst-clarity", "lingyin-eighteen-seed", "cleansing-kit"]);
-  return byId(kind === "eastern" ? easternFallback : westernFallback);
+  const intents = recommendationIntent[kind];
+  const matched = spiritualProducts.filter((product) =>
+    intents.some((intent) => product.intention.includes(intent)),
+  );
+
+  return [...matched, ...spiritualProducts.filter((product) => !matched.includes(product))].slice(0, 3);
 }
