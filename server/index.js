@@ -42,10 +42,35 @@ const html = (res, filePath) => {
   });
 };
 
-const readBody = (req) => new Promise((resolve) => {
+const MAX_BODY_BYTES = 64 * 1024;
+const MAX_USER_INPUT_LENGTH = 100;
+
+const readBody = (req) => new Promise((resolve, reject) => {
   let raw = "";
-  req.on("data", (chunk) => raw += chunk);
-  req.on("end", () => resolve(raw ? JSON.parse(raw) : {}));
+  let size = 0;
+  req.on("data", (chunk) => {
+    size += chunk.length;
+    if (size > MAX_BODY_BYTES) {
+      reject(new Error("Request body too large"));
+      req.destroy();
+      return;
+    }
+    raw += chunk;
+  });
+  req.on("end", () => {
+    if (!raw) return resolve({});
+    try {
+      const body = JSON.parse(raw);
+      const input = body.question || body.userInput || body.prompt;
+      if (typeof input === "string" && input.length > MAX_USER_INPUT_LENGTH) {
+        return reject(new Error(`User input must be ${MAX_USER_INPUT_LENGTH} characters or fewer`));
+      }
+      resolve(body);
+    } catch {
+      reject(new Error("Invalid JSON request body"));
+    }
+  });
+  req.on("error", reject);
 });
 
 function loadEnvFile(filePath) {
@@ -892,7 +917,8 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === "/api/shop/order-draft") return json(res, orderDraft(await readBody(req)));
     json(res, { message: "Not Found" }, 404);
   } catch (error) {
-    json(res, { message: error.message }, 500);
+    const isClientError = /Request body|User input|Invalid JSON/.test(error.message);
+    json(res, { message: error.message }, isClientError ? 400 : 500);
   }
 });
 

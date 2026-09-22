@@ -6,7 +6,7 @@ function request(path, data = {}, method = "GET") {
       url: `${app.globalData.apiBase}${path}`,
       method,
       data,
-      timeout: 65000,
+      timeout: 30000,
       success(res) {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           resolve(res.data);
